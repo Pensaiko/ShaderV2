@@ -1,12 +1,15 @@
 @tool
 extends VisualShaderNodeCustom
+
 class_name VisualShaderNodeRGBAbloom
 
-func _init():
+func _init() -> void:
 	set_input_port_default_value(2, 1.0)
+
 
 func _get_name() -> String:
 	return "Bloom"
+
 
 func _get_category() -> String:
 	return "RGBA"
@@ -17,13 +20,16 @@ func _get_category() -> String:
 #func _get_description() -> String:
 #	return ""
 
-func _get_return_icon_type():
+
+func _get_return_icon_type() -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_VECTOR_3D
+
 
 func _get_input_port_count() -> int:
 	return 3
 
-func _get_input_port_name(port: int):
+
+func _get_input_port_name(port: int) -> String:
 	match port:
 		0:
 			return "color"
@@ -31,8 +37,10 @@ func _get_input_port_name(port: int):
 			return "alpha"
 		2:
 			return "strength"
+	return ""
 
-func _get_input_port_type(port: int):
+
+func _get_input_port_type(port: int) -> VisualShaderNode.PortType:
 	match port:
 		0:
 			return VisualShaderNode.PORT_TYPE_VECTOR_3D
@@ -40,32 +48,49 @@ func _get_input_port_type(port: int):
 			return VisualShaderNode.PORT_TYPE_SCALAR
 		2:
 			return VisualShaderNode.PORT_TYPE_SCALAR
+	return VisualShaderNode.PORT_TYPE_SCALAR
+
 
 func _get_output_port_count() -> int:
 	return 2
 
-func _get_output_port_name(port: int):
+
+func _get_output_port_name(port: int) -> String:
 	match port:
 		0:
 			return "col"
 		1:
 			return "alpha"
+	return ""
 
-func _get_output_port_type(port: int):
+
+func _get_output_port_type(port: int) -> VisualShaderNode.PortType:
 	match port:
 		0:
 			return VisualShaderNode.PORT_TYPE_VECTOR_3D
 		1:
 			return VisualShaderNode.PORT_TYPE_SCALAR
+	return VisualShaderNode.PORT_TYPE_SCALAR
 
-func _get_global_code(mode):
-	var path = self.get_script().get_path().get_base_dir()
+
+func _get_global_code(_mode: VisualShader.Mode) -> String:
+	var path: String = self.get_script().get_path().get_base_dir()
 	return '#include "' + path + '/bloom.gdshaderinc"'
 
-func _get_code(input_vars, output_vars, mode, type):
+
+func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
 	return """vec4 %s%s = _bloomFunc(vec4(%s, %s), %s);
 %s = %s%s.rgb;
 %s = %s%s.a;""" % [
-output_vars[0], output_vars[1], input_vars[0], input_vars[1], input_vars[2],
-output_vars[0], output_vars[0], output_vars[1],
-output_vars[1], output_vars[0], output_vars[1]]
+		output_vars[0],
+		output_vars[1],
+		input_vars[0],
+		input_vars[1],
+		input_vars[2],
+		output_vars[0],
+		output_vars[0],
+		output_vars[1],
+		output_vars[1],
+		output_vars[0],
+		output_vars[1],
+	]

@@ -1,31 +1,39 @@
 @tool
 extends VisualShaderNodeCustom
+
 class_name VisualShaderNodeNoisePerlin3d
 
-func _init():
+func _init() -> void:
 	set_input_port_default_value(1, Vector3(0, 0, 0))
 	set_input_port_default_value(2, 5.0)
 	set_input_port_default_value(3, 0.0)
 
+
 func _get_name() -> String:
 	return "PerlinNoise3D"
+
 
 func _get_category() -> String:
 	return "RGBA"
 
+
 func _get_subcategory() -> String:
 	return "Noise"
+
 
 func _get_description() -> String:
 	return "Classic 3d perlin noise"
 
-func _get_return_icon_type():
+
+func _get_return_icon_type() -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
+
 
 func _get_input_port_count() -> int:
 	return 4
 
-func _get_input_port_name(port: int):
+
+func _get_input_port_name(port: int) -> String:
 	match port:
 		0:
 			return "uv"
@@ -35,8 +43,10 @@ func _get_input_port_name(port: int):
 			return "scale"
 		3:
 			return "time"
+	return ""
 
-func _get_input_port_type(port: int):
+
+func _get_input_port_type(port: int) -> VisualShaderNode.PortType:
 	match port:
 		0:
 			return VisualShaderNode.PORT_TYPE_VECTOR_3D
@@ -46,29 +56,42 @@ func _get_input_port_type(port: int):
 			return VisualShaderNode.PORT_TYPE_SCALAR
 		3:
 			return VisualShaderNode.PORT_TYPE_SCALAR
+	return VisualShaderNode.PORT_TYPE_SCALAR
+
 
 func _get_output_port_count() -> int:
 	return 1
 
-func _get_output_port_name(port: int):
+
+func _get_output_port_name(port: int) -> String:
 	match port:
 		0:
 			return "result"
+	return ""
 
-func _get_output_port_type(port: int):
+
+func _get_output_port_type(port: int) -> VisualShaderNode.PortType:
 	match port:
 		0:
 			return VisualShaderNode.PORT_TYPE_SCALAR
+	return VisualShaderNode.PORT_TYPE_SCALAR
 
-func _get_global_code(mode):
-	var path = self.get_script().get_path().get_base_dir()
+
+func _get_global_code(_mode: VisualShader.Mode) -> String:
+	var path: String = self.get_script().get_path().get_base_dir()
 	return '#include "' + path + '/perlin3d.gdshaderinc"'
 
-func _get_code(input_vars, output_vars, mode, type):
-	var uv = "UV"
-	
+
+func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+	var uv: String = "UV"
+
 	if input_vars[0]:
 		uv = input_vars[0]
-	
+
 	return "%s = _perlin3dNoiseFunc(vec3((%s.xy+%s.xy) * %s, %s));" % [
-output_vars[0], uv, input_vars[1], input_vars[2], input_vars[3]]
+		output_vars[0],
+		uv,
+		input_vars[1],
+		input_vars[2],
+		input_vars[3],
+	]

@@ -1,40 +1,51 @@
 @tool
 extends VisualShaderNodeCustom
+
 class_name VisualShaderToolsHash
 
 func _get_name() -> String:
 	return "HashRandom1d"
 
+
 func _get_category() -> String:
 	return "Tools"
+
 
 func _get_subcategory() -> String:
 	return "Random"
 
+
 func _get_description() -> String:
 	return "Hash func with scalar input and scalar output"
 
-func _get_return_icon_type():
+
+func _get_return_icon_type() -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
+
 
 func _get_input_port_count() -> int:
 	return 1
 
-func _get_input_port_name(port: int) -> String:
+
+func _get_input_port_name(_port: int) -> String:
 	return "in"
 
-func _get_input_port_type(port):
+
+func _get_input_port_type(_port: int) -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
+
 
 func _get_output_port_count() -> int:
 	return 1
 
-func _get_output_port_name(port: int) -> String:
+
+func _get_output_port_name(_port: int) -> String:
 	return "rand"
 
-func _get_output_port_type(port):
+
+func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
 
-func _get_code(input_vars, output_vars, mode, type):
-	return output_vars[0] + " = fract(sin(" + input_vars[0] + ") * 1e4);"
 
+func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+	return output_vars[0] + " = fract(sin(" + input_vars[0] + ") * 1e4);"
