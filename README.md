@@ -3,6 +3,7 @@
 👉 [3.x](https://github.com/arkology/ShaderV/tree/godot-3.x)
 
 # ShaderV - VisualShader plugin for Godot Engine 4.x
+<p>Updated for Godot 4.7.</p>
 <p>Adds many premade 2D effects (such as noises, blur, emboss, zoom, custom shapes, etc.) to build-in VisualShader editor.</p>
 <p>You can find basic usage examples in the <i>addons/shaderV/examples</i> folder. Note that plugin can work freely without <i>examples</i> folder, so this folder can be deleted.</p>
 <p>Copy the contents of <i>addons/shaderV</i> into the same folder in your project. No activation needed. Custom visual shader nodes work the same way as standart visual shader nodes.</p>
@@ -135,15 +136,3 @@
   <li>SinTIME - Returns [amplitude] * sin([speed] * TIME)</li>
   <li>vec2Compose - Makes 2d vector from length and angle (in radians)</li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
