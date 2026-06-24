@@ -8,12 +8,28 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="ShaderV"
-run/main_scene="res://addons/shaderV/examples/basic_examples.tscn"
-config/features=PackedStringArray("4.2")
-config/icon="res://addons/shaderV/shaderV_icon.png"
+run/main_scene="uid://c0y4dh3a6qrur"
+config/features=PackedStringArray("4.7")
+config/icon="uid://b6wr23n6871lb"
+config/size/window_height_override=0
+config/size/window_width_override=0
+config/size/viewport_height=648
+config/size/viewport_width=1152
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
 
 [dotnet]
 
