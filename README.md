@@ -1,4 +1,4 @@
-<p align="center"><img src="addons/shaderV/shaderV_icon.png" width="80px"/></p>
+<p align="center"><img src="addons/shaderV2/shaderV_icon.png" width="80px"/></p>
 
 👉 [3.x](https://github.com/arkology/ShaderV/tree/godot-3.x)
 
