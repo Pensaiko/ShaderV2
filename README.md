@@ -2,7 +2,7 @@
 
 👉 [3.x](https://github.com/arkology/ShaderV/tree/godot-3.x)
 
-# ShaderV - VisualShader Node Library Godot Engine 4.x
+# ShaderV2 - VisualShader Node Library Godot Engine 4.x
 <p>Updated for Godot 4.7.</p>
 <p>Adds many premade 2D effects (such as noises, blur, emboss, zoom, custom shapes, etc.) to build-in VisualShader editor.</p>
 <p>You can find basic usage examples in the <i>addons/shaderV2/examples</i> folder. Note that plugin can work freely without <i>examples</i> folder, so this folder can be deleted.</p>
