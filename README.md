@@ -1,6 +1,11 @@
+> [!NOTE]  
+> This is just a personal project, so there is no guarantee I will always be working on it.
+> <br>
+> Feel free to submit pull requests, report bugs, and suggest improvements; I will work on adding these things when I feel like it and have the time.
+
 <p align="center"><img src="addons/shaderV2/shaderV_icon.png" width="80px"/></p>
 
-👉 [3.x](https://github.com/arkology/ShaderV/tree/godot-3.x)
+👉 [Godot 3.x](https://github.com/arkology/ShaderV/tree/godot-3.x)
 
 # ShaderV2 - VisualShader Node Library Godot Engine 4.x
 <p>Updated for Godot 4.7.</p>
