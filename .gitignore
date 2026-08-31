@@ -5,6 +5,8 @@
 .import/
 export.cfg
 export_presets.cfg
+/addons/GDQuest_GDScript_formatter/
+/test/
 
 # Mono-specific ignores
 .mono/

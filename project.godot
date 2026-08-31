@@ -18,10 +18,6 @@ config/name="ShaderV"
 run/main_scene="uid://c0y4dh3a6qrur"
 config/features=PackedStringArray("4.7")
 config/icon="uid://b6wr23n6871lb"
-config/size/window_height_override=0
-config/size/window_width_override=0
-config/size/viewport_height=648
-config/size/viewport_width=1152
 
 [display]
 
@@ -34,3 +30,7 @@ window/stretch/mode="canvas_items"
 [dotnet]
 
 project/assembly_name="ShaderV"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/GDQuest_GDScript_formatter/plugin.cfg")

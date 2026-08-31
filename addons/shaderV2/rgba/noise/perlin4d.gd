@@ -1,13 +1,12 @@
 @tool
+class_name VisualShaderNodeNoisePerlin4d
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeNoisePerlin4d
 
 func _init() -> void:
 	set_input_port_default_value(1, Vector3(0, 0, 0))
 	set_input_port_default_value(2, 5.0)
-	set_input_port_default_value(3, 1.0)
-	set_input_port_default_value(4, 0.0)
+	set_input_port_default_value(3, 0.0)
 
 
 func _get_name() -> String:
@@ -31,7 +30,7 @@ func _get_return_icon_type() -> VisualShaderNode.PortType:
 
 
 func _get_input_port_count() -> int:
-	return 5
+	return 4
 
 
 func _get_input_port_name(port: int) -> String:
@@ -43,8 +42,6 @@ func _get_input_port_name(port: int) -> String:
 		2:
 			return "scale"
 		3:
-			return "z"
-		4:
 			return "time"
 	return ""
 
@@ -58,8 +55,6 @@ func _get_input_port_type(port: int) -> VisualShaderNode.PortType:
 		2:
 			return VisualShaderNode.PORT_TYPE_SCALAR
 		3:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		4:
 			return VisualShaderNode.PORT_TYPE_SCALAR
 	return VisualShaderNode.PORT_TYPE_SCALAR
 
@@ -87,17 +82,21 @@ func _get_global_code(mode) -> String:
 	return '#include "' + path + '/perlin4d.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
-	var uv: String = "UV"
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
+	var uv: String = "(inverse(MODEL_MATRIX) * INV_VIEW_MATRIX * vec4(VERTEX, 1.0)).xyz"
 
 	if input_vars[0]:
 		uv = input_vars[0]
 
-	return "%s = _perlin4dNoiseFunc(vec4((%s.xy + %s.xy) * %s, %s, %s));" % [
+	return "%s = _perlin4dNoiseFunc(vec4((%s + %s) * %s, %s));" % [
 		output_vars[0],
 		uv,
 		input_vars[1],
 		input_vars[2],
 		input_vars[3],
-		input_vars[4],
 	]

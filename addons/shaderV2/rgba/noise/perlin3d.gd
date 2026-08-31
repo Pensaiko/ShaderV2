@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeNoisePerlin3d
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeNoisePerlin3d
 
 func _init() -> void:
 	set_input_port_default_value(1, Vector3(0, 0, 0))
@@ -82,7 +82,12 @@ func _get_global_code(_mode: VisualShader.Mode) -> String:
 	return '#include "' + path + '/perlin3d.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:
