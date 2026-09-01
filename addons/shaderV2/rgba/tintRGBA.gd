@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeRGBAtintRGBA
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeRGBAtintRGBA
 
 func _init() -> void:
 	set_input_port_default_value(1, 1.0)
@@ -16,10 +16,9 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "RGBA"
 
+
 #func _get_subcategory():
 #	return ""
-
-
 func _get_description() -> String:
 	return "Tints RGBA with tint color (same as modulate property in editor)"
 
@@ -80,7 +79,12 @@ func _get_output_port_type(port: int) -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	return """%s = %s * %s;
 %s = %s * %s;""" % [
 		output_vars[0],

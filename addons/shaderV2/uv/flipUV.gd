@@ -1,9 +1,9 @@
 @tool
+class_name VisualShaderNodeUVflip
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeUVflip
 
-func _init():
+func _init() -> void:
 	set_input_port_default_value(1, false)
 	set_input_port_default_value(2, false)
 
@@ -15,10 +15,9 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "UV"
 
+
 #func _get_subcategory():
 #	return ""
-
-
 func _get_description() -> String:
 	return "Flip UV horizontal or vertical"
 
@@ -68,11 +67,19 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/flipUV.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:

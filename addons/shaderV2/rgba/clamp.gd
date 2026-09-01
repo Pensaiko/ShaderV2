@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeUVclampAlpha
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeUVclampAlpha
 
 func _get_name() -> String:
 	return "ClampAlphaBorder"
@@ -10,10 +10,9 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "RGBA"
 
+
 #func _get_subcategory():
 #	return ""
-
-
 func _get_description() -> String:
 	return "Clamp alpha to border vec4(0, 0, 1, 1)"
 
@@ -57,11 +56,19 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/clamp.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var _texture: String = "TEXTURE"
 	var uv: String = "UV"
 

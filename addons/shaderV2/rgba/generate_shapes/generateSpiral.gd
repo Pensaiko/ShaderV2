@@ -1,9 +1,9 @@
 @tool
+class_name VisualShaderNodeRGBAcreateSpiral
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeRGBAcreateSpiral
 
-func _init():
+func _init() -> void:
 	set_input_port_default_value(1, Vector3(0.5, 0.5, 0))
 	set_input_port_default_value(2, 70.0)
 	set_input_port_default_value(3, 1.0)
@@ -22,7 +22,7 @@ func _get_category() -> String:
 	return "RGBA"
 
 
-func _get_subcategory():
+func _get_subcategory() -> String:
 	return "Shapes"
 
 
@@ -30,7 +30,7 @@ func _get_description() -> String:
 	return "Spiral creation with adjusted position, size, linesAmount, softness, speed and color"
 
 
-func _get_return_icon_type():
+func _get_return_icon_type() -> int:
 	return VisualShaderNode.PORT_TYPE_VECTOR_3D
 
 
@@ -38,7 +38,7 @@ func _get_input_port_count() -> int:
 	return 9
 
 
-func _get_input_port_name(port: int):
+func _get_input_port_name(port: int) -> String:
 	match port:
 		0:
 			return "uv"
@@ -61,7 +61,7 @@ func _get_input_port_name(port: int):
 	return ""
 
 
-func _get_input_port_type(port: int):
+func _get_input_port_type(port: int) -> int:
 	match port:
 		0:
 			return VisualShaderNode.PORT_TYPE_VECTOR_3D
@@ -107,11 +107,19 @@ func _get_output_port_type(port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/generateSpiral.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:

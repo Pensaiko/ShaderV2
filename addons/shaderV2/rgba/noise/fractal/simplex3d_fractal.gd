@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeNoiseSimplex3dFractal
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeNoiseSimplex3dFractal
 
 func _init() -> void:
 	set_input_port_default_value(1, 6)
@@ -99,11 +99,19 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/simplex3d_fractal.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:

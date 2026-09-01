@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderToolsRandomFloat
 extends VisualShaderNodeCustom
 
-class_name VisualShaderToolsRandomFloat
 
 func _init() -> void:
 	pass
@@ -51,7 +51,12 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:

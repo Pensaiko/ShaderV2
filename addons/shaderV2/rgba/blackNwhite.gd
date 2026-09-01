@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeRGBAblackNwhite
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeRGBAblackNwhite
 
 func _init() -> void:
 	set_input_port_default_value(1, 0.5)
@@ -14,10 +14,9 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "RGBA"
 
+
 #func _get_subcategory() -> String:
 #	return ""
-
-
 func _get_description() -> String:
 	return "Turns color to black and white"
 
@@ -68,5 +67,10 @@ func _get_global_code(_mode: VisualShader.Mode) -> String:
 	return '#include "' + path + '/blackNwhite.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	return "%s = blackNwhite(%s, %s);" % [output_vars[0], input_vars[0], input_vars[1]]

@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderToolsSinTIME
 extends VisualShaderNodeCustom
 
-class_name VisualShaderToolsSinTIME
 
 func _init() -> void:
 	set_input_port_default_value(0, 1.0)
@@ -15,10 +15,9 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "Tools"
 
+
 #func _get_subcategory():
 #	return ""
-
-
 func _get_description() -> String:
 	return "Returns [amplitude] * sin([speed] * TIME)"
 
@@ -63,5 +62,10 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_SCALAR
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	return output_vars[0] + " = %s * sin(%s * TIME);" % [input_vars[1], input_vars[0]]

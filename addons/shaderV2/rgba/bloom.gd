@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeRGBAbloom
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeRGBAbloom
 
 func _init() -> void:
 	set_input_port_default_value(2, 1.0)
@@ -14,13 +14,11 @@ func _get_name() -> String:
 func _get_category() -> String:
 	return "RGBA"
 
+
 #func _get_subcategory():
 #	return ""
-
 #func _get_description() -> String:
 #	return ""
-
-
 func _get_return_icon_type() -> VisualShaderNode.PortType:
 	return VisualShaderNode.PORT_TYPE_VECTOR_3D
 
@@ -74,11 +72,19 @@ func _get_output_port_type(port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/bloom.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	return """vec4 %s%s = _bloomFunc(vec4(%s, %s), %s);
 %s = %s%s.rgb;
 %s = %s%s.a;""" % [

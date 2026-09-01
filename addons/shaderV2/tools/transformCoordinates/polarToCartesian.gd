@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderToolsPolarToCartesian
 extends VisualShaderNodeCustom
 
-class_name VisualShaderToolsPolarToCartesian
 
 func _init() -> void:
 	set_input_port_default_value(0, Vector3(1.0, 1.0, 0.0))
@@ -52,9 +52,21 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/polarToCartesian.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
-	return "%s = vec3(_polarToCartesianFunc(%s.xy), %s.z);" % [output_vars[0], input_vars[0], input_vars[0]]
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
+	return "%s = vec3(_polarToCartesianFunc(%s.xy), %s.z);" % [
+		output_vars[0],
+		input_vars[0],
+		input_vars[0],
+	]
