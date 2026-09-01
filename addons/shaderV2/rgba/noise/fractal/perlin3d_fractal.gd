@@ -1,7 +1,7 @@
 @tool
+class_name VisualShaderNodeNoisePerlin3dFractal
 extends VisualShaderNodeCustom
 
-class_name VisualShaderNodeNoisePerlin3dFractal
 
 func _init() -> void:
 	set_input_port_default_value(1, 6)
@@ -39,51 +39,31 @@ func _get_input_port_count() -> int:
 
 
 func _get_input_port_name(port: int) -> String:
-	match port:
-		0:
-			return "uv"
-		1:
-			return "octaves"
-		2:
-			return "period"
-		3:
-			return "lacunarity"
-		4:
-			return "persistence"
-		5:
-			return "angle"
-		6:
-			return "amplitude"
-		7:
-			return "shift"
-		8:
-			return "time"
-
-	return ""
+	return [
+		"uv",
+		"octaves",
+		"period",
+		"lacunarity",
+		"persistence",
+		"angle",
+		"amplitude",
+		"shift",
+		"time",
+	][port]
 
 
 func _get_input_port_type(port: int) -> VisualShaderNode.PortType:
-	match port:
-		0:
-			return VisualShaderNode.PORT_TYPE_VECTOR_3D
-		1:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		2:
-			return VisualShaderNode.PORT_TYPE_VECTOR_3D
-		3:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		4:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		5:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		6:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-		7:
-			return VisualShaderNode.PORT_TYPE_VECTOR_3D
-		8:
-			return VisualShaderNode.PORT_TYPE_SCALAR
-
-	return VisualShaderNode.PORT_TYPE_SCALAR
+	return [
+		VisualShaderNode.PORT_TYPE_VECTOR_3D,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+		VisualShaderNode.PORT_TYPE_VECTOR_3D,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+		VisualShaderNode.PORT_TYPE_VECTOR_3D,
+		VisualShaderNode.PORT_TYPE_SCALAR,
+	][port]
 
 
 func _get_output_port_count() -> int:
@@ -99,11 +79,19 @@ func _get_output_port_type(_port: int) -> VisualShaderNode.PortType:
 
 
 func _get_global_code(_mode: VisualShader.Mode) -> String:
-	var path: String = self.get_script().get_path().get_base_dir()
+	var current_script: Script = get_script()
+	var path: String = ""
+	if current_script is Script:
+		path = current_script.resource_path.get_base_dir()
 	return '#include "' + path + '/perlin3d_fractal.gdshaderinc"'
 
 
-func _get_code(input_vars: Array[String], output_vars: Array[String], _mode: VisualShader.Mode, _type: VisualShader.Type) -> String:
+func _get_code(
+	input_vars: Array[String],
+	output_vars: Array[String],
+	_mode: VisualShader.Mode,
+	_type: VisualShader.Type,
+) -> String:
 	var uv: String = "UV"
 
 	if input_vars[0]:

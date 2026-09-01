@@ -5,6 +5,7 @@
 .import/
 export.cfg
 export_presets.cfg
+/addons/script-ide/
 /addons/GDQuest_GDScript_formatter/
 /test/
 
