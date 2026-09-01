@@ -131,7 +131,7 @@ nodes/fragment/6/node = SubResource("5")
 nodes/fragment/6/position = Vector2(-180, 280)
 nodes/fragment/7/node = SubResource("6")
 nodes/fragment/7/position = Vector2(-180, 220)
-nodes/fragment/connections = PackedInt32Array(4, 4, 0, 1, 4, 0, 0, 0)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 5, 0, 2, 1, 6, 0, 2, 3, 7, 0, 2, 2, 6, 0, 2, 4, 2, 0, 4, 0, 4, 4, 0, 1, 4, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="8"]
 shader = SubResource("7")
@@ -168,7 +168,7 @@ nodes/fragment/8/node = SubResource("12")
 nodes/fragment/8/position = Vector2(-120, 40)
 nodes/fragment/9/node = SubResource("13")
 nodes/fragment/9/position = Vector2(-120, 120)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 7, 0, 8, 0, 7, 1, 9, 0, 7, 2, 7, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="15"]
 shader = SubResource("14")
@@ -193,7 +193,7 @@ nodes/fragment/7/node = SubResource("16")
 nodes/fragment/7/position = Vector2(200, 40)
 nodes/fragment/8/node = SubResource("17")
 nodes/fragment/8/position = Vector2(0, 80)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 7, 0, 8, 0, 7, 1, 7, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="19"]
 shader = SubResource("18")
@@ -222,7 +222,7 @@ nodes/fragment/8/node = SubResource("21")
 nodes/fragment/8/position = Vector2(-240, 20)
 nodes/fragment/9/node = SubResource("22")
 nodes/fragment/9/position = Vector2(120, 100)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 9, 0, 5, 1, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 8, 0, 7, 1, 3, 0, 7, 0, 9, 0, 5, 1, 7, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="24"]
 shader = SubResource("23")
@@ -252,7 +252,7 @@ nodes/fragment/8/node = SubResource("26")
 nodes/fragment/8/position = Vector2(-40, 40)
 nodes/fragment/9/node = SubResource("27")
 nodes/fragment/9/position = Vector2(-200, 120)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 7, 0, 8, 0, 7, 1, 9, 0, 7, 2, 7, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="29"]
 shader = SubResource("28")
@@ -280,7 +280,7 @@ nodes/fragment/10/node = SubResource("30")
 nodes/fragment/10/position = Vector2(-220, 20)
 nodes/fragment/11/node = SubResource("31")
 nodes/fragment/11/position = Vector2(-220, 140)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 10, 0, 9, 1, 11, 0, 9, 2, 9, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="34"]
 shader = SubResource("33")
@@ -316,7 +316,7 @@ nodes/fragment/15/node = SubResource("38")
 nodes/fragment/15/position = Vector2(-200, 100)
 nodes/fragment/16/node = SubResource("39")
 nodes/fragment/16/position = Vector2(-200, 200)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 13, 0, 12, 1, 14, 0, 12, 2, 15, 0, 12, 3, 16, 0, 12, 4, 12, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="41"]
 shader = SubResource("40")
@@ -350,7 +350,7 @@ nodes/fragment/15/node = SubResource("44")
 nodes/fragment/15/position = Vector2(-40, 0)
 nodes/fragment/16/node = SubResource("45")
 nodes/fragment/16/position = Vector2(-40, 80)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 13, 0, 14, 0, 13, 3, 15, 0, 13, 1, 16, 0, 13, 2, 13, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="47"]
 shader = SubResource("46")
@@ -375,7 +375,7 @@ nodes/fragment/17/node = SubResource("48")
 nodes/fragment/17/position = Vector2(180, 0)
 nodes/fragment/18/node = SubResource("49")
 nodes/fragment/18/position = Vector2(-40, 80)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 18, 0, 17, 1, 3, 0, 17, 0, 17, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="51"]
 shader = SubResource("50")
@@ -420,7 +420,7 @@ nodes/fragment/21/node = SubResource("56")
 nodes/fragment/21/position = Vector2(-300, 220)
 nodes/fragment/22/node = SubResource("57")
 nodes/fragment/22/position = Vector2(-300, 40)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 18, 0, 19, 0, 18, 1, 20, 0, 18, 2, 22, 0, 18, 3, 15, 0, 18, 4, 21, 0, 18, 5, 18, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="59"]
 shader = SubResource("58")
@@ -500,7 +500,7 @@ nodes/fragment/29/node = SubResource("70")
 nodes/fragment/29/position = Vector2(-180, 200)
 nodes/fragment/30/node = SubResource("71")
 nodes/fragment/30/position = Vector2(-180, -40)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 24, 0, 25, 0, 24, 6, 26, 0, 24, 1, 29, 0, 24, 5, 28, 0, 24, 4, 27, 0, 24, 3, 30, 0, 24, 2, 24, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="73"]
 shader = SubResource("72")
@@ -545,7 +545,7 @@ nodes/fragment/11/node = SubResource("75")
 nodes/fragment/11/position = Vector2(-120, 160)
 nodes/fragment/12/node = SubResource("76")
 nodes/fragment/12/position = Vector2(160, 0)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 12, 0, 8, 0, 12, 1, 9, 0, 12, 2, 10, 0, 12, 3, 11, 0, 12, 4, 7, 0, 12, 5, 12, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="81"]
 shader = SubResource("80")
@@ -577,7 +577,7 @@ nodes/fragment/9/node = SubResource("84")
 nodes/fragment/9/position = Vector2(-120, -20)
 nodes/fragment/10/node = SubResource("82")
 nodes/fragment/10/position = Vector2(-260, 60)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 8, 0, 7, 0, 8, 3, 9, 0, 8, 1, 10, 0, 8, 2, 8, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="86"]
 shader = SubResource("85")
@@ -619,7 +619,7 @@ nodes/fragment/12/node = SubResource("89")
 nodes/fragment/12/position = Vector2(-280, 180)
 nodes/fragment/13/node = SubResource("90")
 nodes/fragment/13/position = Vector2(-220, -40)
-nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 12, 0, 11, 1, 5, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(5, 0, 0, 0, 3, 0, 9, 0, 10, 0, 9, 2, 11, 0, 9, 3, 12, 0, 11, 1, 13, 0, 9, 1, 9, 0, 5, 0, 5, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="93"]
 shader = SubResource("92")
@@ -661,7 +661,7 @@ nodes/fragment/16/node = SubResource("VisualShaderNodeTexture_n3ifg")
 nodes/fragment/16/position = Vector2(360, 20)
 nodes/fragment/17/node = SubResource("VisualShaderNodeInput_sghnd")
 nodes/fragment/17/position = Vector2(40, 200)
-nodes/fragment/connections = PackedInt32Array(16, 4, 0, 1, 17, 0, 16, 2, 16, 0, 0, 0)
+nodes/fragment/connections = PackedInt32Array(15, 0, 13, 1, 14, 0, 13, 2, 16, 4, 0, 1, 17, 0, 16, 2, 16, 0, 0, 0, 3, 0, 13, 0, 13, 0, 16, 1, 13, 0, 16, 0)
 
 [sub_resource type="ShaderMaterial" id="98"]
 shader = SubResource("97")
@@ -728,7 +728,7 @@ nodes/fragment/20/node = SubResource("VisualShaderNodeVectorDecompose_gortp")
 nodes/fragment/20/position = Vector2(440, 0)
 nodes/fragment/21/node = SubResource("VisualShaderNodeVectorCompose_c6k4f")
 nodes/fragment/21/position = Vector2(660, 20)
-nodes/fragment/connections = PackedInt32Array(21, 0, 0, 0, 20, 0, 21, 0, 20, 1, 21, 1)
+nodes/fragment/connections = PackedInt32Array(3, 0, 19, 0, 19, 0, 20, 0, 21, 0, 0, 0, 20, 0, 21, 0, 20, 1, 21, 1)
 
 [sub_resource type="ShaderMaterial" id="107"]
 shader = SubResource("106")
@@ -769,6 +769,7 @@ nodes/fragment/8/node = SubResource("VisualShaderNodeInput_dvmop")
 nodes/fragment/8/position = Vector2(-320, 80)
 nodes/fragment/9/node = SubResource("VisualShaderNodeCustom_swrn3")
 nodes/fragment/9/position = Vector2(100, 0)
+nodes/fragment/connections = PackedInt32Array(4, 0, 9, 0, 8, 0, 9, 2, 9, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xd8m2"]
 shader = SubResource("VisualShader_y00xk")
@@ -798,6 +799,7 @@ nodes/fragment/25/node = SubResource("116")
 nodes/fragment/25/position = Vector2(-40, 120)
 nodes/fragment/26/node = SubResource("117")
 nodes/fragment/26/position = Vector2(200, 0)
+nodes/fragment/connections = PackedInt32Array(21, 0, 26, 0, 24, 0, 26, 1, 25, 0, 26, 2, 26, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="119"]
 shader = SubResource("118")
@@ -840,7 +842,7 @@ nodes/fragment/28/node = SubResource("124")
 nodes/fragment/28/position = Vector2(-20, 220)
 nodes/fragment/29/node = SubResource("125")
 nodes/fragment/29/position = Vector2(-20, 140)
-nodes/fragment/connections = PackedInt32Array(25, 0, 0, 0, 25, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(25, 0, 0, 0, 24, 0, 25, 0, 21, 0, 24, 0, 26, 0, 24, 1, 27, 0, 24, 2, 29, 0, 24, 3, 28, 0, 24, 4, 25, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="127"]
 shader = SubResource("126")
@@ -927,7 +929,7 @@ nodes/fragment/6/node = SubResource("VisualShaderNodeVectorCompose_wkq5u")
 nodes/fragment/6/position = Vector2(880, 100)
 nodes/fragment/7/node = SubResource("VisualShaderNodeVectorDecompose_b8o5j")
 nodes/fragment/7/position = Vector2(640, 100)
-nodes/fragment/connections = PackedInt32Array(7, 0, 6, 0, 7, 1, 6, 1, 6, 0, 0, 0)
+nodes/fragment/connections = PackedInt32Array(4, 0, 2, 1, 3, 0, 2, 0, 2, 0, 7, 0, 7, 0, 6, 0, 7, 1, 6, 1, 6, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="137"]
 shader = SubResource("136")
@@ -963,7 +965,7 @@ nodes/fragment/8/node = SubResource("141")
 nodes/fragment/8/position = Vector2(-220, 40)
 nodes/fragment/9/node = SubResource("142")
 nodes/fragment/9/position = Vector2(-220, 120)
-nodes/fragment/connections = PackedInt32Array(6, 0, 5, 1, 7, 0, 5, 0, 5, 1, 0, 1, 8, 0, 5, 2, 9, 0, 5, 3, 5, 0, 0, 0)
+nodes/fragment/connections = PackedInt32Array(6, 0, 5, 1, 7, 0, 5, 0, 8, 0, 5, 2, 9, 0, 5, 3, 5, 0, 0, 0, 5, 1, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="144"]
 shader = SubResource("143")
@@ -1045,7 +1047,7 @@ nodes/fragment/14/node = SubResource("154")
 nodes/fragment/14/position = Vector2(-260, 160)
 nodes/fragment/15/node = SubResource("155")
 nodes/fragment/15/position = Vector2(-400, 60)
-nodes/fragment/connections = PackedInt32Array(12, 0, 9, 1)
+nodes/fragment/connections = PackedInt32Array(6, 0, 11, 1, 12, 0, 9, 1, 9, 0, 11, 5, 13, 0, 11, 2, 14, 0, 11, 4, 7, 0, 11, 0, 11, 1, 0, 1, 15, 0, 11, 3, 11, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="158"]
 shader = SubResource("157")
@@ -1090,6 +1092,7 @@ nodes/fragment/17/node = SubResource("163")
 nodes/fragment/17/position = Vector2(-280, 140)
 nodes/fragment/18/node = SubResource("164")
 nodes/fragment/18/position = Vector2(-280, 220)
+nodes/fragment/connections = PackedInt32Array(13, 1, 0, 1, 7, 0, 13, 0, 6, 0, 13, 1, 14, 0, 13, 6, 15, 0, 13, 2, 16, 0, 13, 3, 17, 0, 13, 4, 18, 0, 13, 5, 13, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="166"]
 shader = SubResource("165")
@@ -1126,6 +1129,7 @@ nodes/fragment/17/node = SubResource("169")
 nodes/fragment/17/position = Vector2(-280, 80)
 nodes/fragment/18/node = SubResource("170")
 nodes/fragment/18/position = Vector2(-280, 160)
+nodes/fragment/connections = PackedInt32Array(7, 0, 15, 0, 6, 0, 15, 1, 14, 0, 15, 5, 16, 0, 15, 2, 17, 0, 15, 3, 18, 0, 15, 4, 15, 0, 0, 0, 15, 1, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="172"]
 shader = SubResource("171")
@@ -1171,6 +1175,7 @@ nodes/fragment/7/node = SubResource("178")
 nodes/fragment/7/position = Vector2(-60, 300)
 nodes/fragment/8/node = SubResource("179")
 nodes/fragment/8/position = Vector2(-60, 380)
+nodes/fragment/connections = PackedInt32Array(2, 1, 0, 1, 4, 0, 2, 1, 3, 0, 2, 0, 5, 0, 2, 5, 6, 0, 2, 2, 8, 0, 2, 4, 7, 0, 2, 3, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="181"]
 shader = SubResource("180")
@@ -1210,6 +1215,7 @@ nodes/fragment/9/node = SubResource("186")
 nodes/fragment/9/position = Vector2(-80, 300)
 nodes/fragment/10/node = SubResource("182")
 nodes/fragment/10/position = Vector2(-80, 380)
+nodes/fragment/connections = PackedInt32Array(6, 1, 0, 1, 3, 0, 6, 0, 4, 0, 6, 1, 7, 0, 6, 5, 8, 0, 6, 2, 9, 0, 6, 3, 10, 0, 6, 4, 6, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="188"]
 shader = SubResource("187")
@@ -1249,6 +1255,7 @@ nodes/fragment/11/node = SubResource("190")
 nodes/fragment/11/position = Vector2(-60, 280)
 nodes/fragment/12/node = SubResource("191")
 nodes/fragment/12/position = Vector2(-60, 360)
+nodes/fragment/connections = PackedInt32Array(7, 1, 0, 1, 3, 0, 7, 0, 4, 0, 7, 1, 9, 0, 7, 5, 10, 0, 7, 2, 11, 0, 7, 3, 12, 0, 7, 4, 7, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="195"]
 shader = SubResource("194")
@@ -1325,6 +1332,7 @@ nodes/fragment/23/node = SubResource("215")
 nodes/fragment/23/position = Vector2(-120, 80)
 nodes/fragment/24/node = SubResource("216")
 nodes/fragment/24/position = Vector2(-120, 180)
+nodes/fragment/connections = PackedInt32Array(4, 0, 18, 0, 19, 0, 18, 3, 20, 0, 18, 4, 21, 0, 18, 5, 22, 0, 18, 6, 23, 0, 18, 1, 24, 0, 18, 2, 18, 1, 0, 1, 18, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="218"]
 shader = SubResource("217")
@@ -1371,6 +1379,7 @@ nodes/fragment/17/node = SubResource("206")
 nodes/fragment/17/position = Vector2(40, 440)
 nodes/fragment/18/node = SubResource("207")
 nodes/fragment/18/position = Vector2(-120, 80)
+nodes/fragment/connections = PackedInt32Array(11, 1, 0, 1, 12, 0, 11, 6, 4, 0, 11, 0, 16, 0, 11, 4, 17, 0, 11, 5, 14, 0, 11, 2, 18, 0, 11, 1, 15, 0, 11, 3, 11, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="209"]
 shader = SubResource("208")
@@ -1418,6 +1427,7 @@ nodes/fragment/32/node = SubResource("230")
 nodes/fragment/32/position = Vector2(0, 280)
 nodes/fragment/33/node = SubResource("231")
 nodes/fragment/33/position = Vector2(0, 360)
+nodes/fragment/connections = PackedInt32Array(27, 1, 0, 1, 4, 0, 27, 0, 28, 0, 27, 1, 31, 0, 27, 2, 29, 0, 27, 3, 32, 0, 27, 4, 33, 0, 27, 5, 26, 0, 27, 6, 27, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="233"]
 shader = SubResource("232")
@@ -1470,6 +1480,7 @@ nodes/fragment/44/node = SubResource("240")
 nodes/fragment/44/position = Vector2(0, 380)
 nodes/fragment/45/node = SubResource("241")
 nodes/fragment/45/position = Vector2(-120, 460)
+nodes/fragment/connections = PackedInt32Array(4, 0, 40, 0, 38, 0, 40, 1, 41, 0, 40, 2, 42, 0, 40, 3, 43, 0, 40, 4, 44, 0, 40, 5, 45, 0, 40, 6, 37, 0, 40, 7, 40, 1, 0, 1, 40, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="243"]
 shader = SubResource("242")
@@ -1515,6 +1526,7 @@ nodes/fragment/52/node = SubResource("250")
 nodes/fragment/52/position = Vector2(100, 400)
 nodes/fragment/53/node = SubResource("611")
 nodes/fragment/53/position = Vector2(380, 220)
+nodes/fragment/connections = PackedInt32Array(53, 1, 0, 1, 47, 0, 53, 0, 48, 0, 53, 1, 49, 0, 53, 2, 50, 0, 53, 3, 51, 0, 53, 4, 52, 0, 53, 5, 53, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="252"]
 shader = SubResource("251")
@@ -1547,391 +1559,10 @@ nodes/fragment/55/node = SubResource("255")
 nodes/fragment/55/position = Vector2(140, 220)
 nodes/fragment/56/node = SubResource("256")
 nodes/fragment/56/position = Vector2(140, 300)
+nodes/fragment/connections = PackedInt32Array(47, 0, 54, 0, 53, 0, 54, 3, 55, 0, 54, 1, 56, 0, 54, 2, 54, 0, 0, 0, 54, 1, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="258"]
 shader = SubResource("257")
-
-[sub_resource type="VisualShaderNodeCustom" id="259"]
-output_port_for_preview = 0
-default_input_values = [1, Vector3(0, 0, 0), 2, 5]
-initialized = true
-script = ExtResource("43")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="260"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="261"]
-constant = 10.0
-
-[sub_resource type="VisualShader" id="262"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(660, 220)
-nodes/fragment/47/node = SubResource("245")
-nodes/fragment/47/position = Vector2(60, 140)
-nodes/fragment/55/node = SubResource("259")
-nodes/fragment/55/position = Vector2(440, 220)
-nodes/fragment/56/node = SubResource("260")
-nodes/fragment/56/position = Vector2(60, 220)
-nodes/fragment/57/node = SubResource("261")
-nodes/fragment/57/position = Vector2(200, 320)
-
-[sub_resource type="ShaderMaterial" id="263"]
-shader = SubResource("262")
-
-[sub_resource type="VisualShaderNodeCustom" id="264"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, Vector3(0, 0, 0)]
-initialized = true
-script = ExtResource("44")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="265"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="266"]
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="267"]
-
-[sub_resource type="VisualShader" id="268"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(700, 220)
-nodes/fragment/47/node = SubResource("245")
-nodes/fragment/47/position = Vector2(60, 120)
-nodes/fragment/66/node = SubResource("264")
-nodes/fragment/66/position = Vector2(480, 220)
-nodes/fragment/67/node = SubResource("265")
-nodes/fragment/67/position = Vector2(200, 300)
-nodes/fragment/68/node = SubResource("266")
-nodes/fragment/68/position = Vector2(60, 200)
-nodes/fragment/69/node = SubResource("267")
-nodes/fragment/69/position = Vector2(60, 380)
-
-[sub_resource type="ShaderMaterial" id="269"]
-shader = SubResource("268")
-
-[sub_resource type="VisualShaderNodeCustom" id="270"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 0]
-initialized = true
-script = ExtResource("45")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="271"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="272"]
-
-[sub_resource type="VisualShaderNodeInput" id="273"]
-input_name = "time"
-
-[sub_resource type="VisualShader" id="274"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(680, 280)
-nodes/fragment/47/node = SubResource("245")
-nodes/fragment/47/position = Vector2(100, 180)
-nodes/fragment/62/node = SubResource("270")
-nodes/fragment/62/position = Vector2(480, 280)
-nodes/fragment/63/node = SubResource("271")
-nodes/fragment/63/position = Vector2(220, 360)
-nodes/fragment/64/node = SubResource("272")
-nodes/fragment/64/position = Vector2(80, 260)
-nodes/fragment/65/node = SubResource("273")
-nodes/fragment/65/position = Vector2(100, 440)
-nodes/fragment/connections = PackedInt32Array(47, 0, 62, 0, 63, 0, 62, 2, 64, 0, 62, 1, 65, 0, 62, 3, 62, 0, 0, 0)
-
-[sub_resource type="ShaderMaterial" id="275"]
-shader = SubResource("274")
-
-[sub_resource type="VisualShaderNodeCustom" id="276"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, Vector3(0, 0, 0), 4, 0]
-initialized = true
-script = ExtResource("46")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="277"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="278"]
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="279"]
-constant = Vector3(1, 10, 0)
-
-[sub_resource type="VisualShader" id="280"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(720, 280)
-nodes/fragment/47/node = SubResource("245")
-nodes/fragment/47/position = Vector2(80, 160)
-nodes/fragment/65/node = SubResource("273")
-nodes/fragment/65/position = Vector2(100, 540)
-nodes/fragment/66/node = SubResource("276")
-nodes/fragment/66/position = Vector2(460, 280)
-nodes/fragment/67/node = SubResource("277")
-nodes/fragment/67/position = Vector2(220, 340)
-nodes/fragment/68/node = SubResource("278")
-nodes/fragment/68/position = Vector2(80, 240)
-nodes/fragment/69/node = SubResource("279")
-nodes/fragment/69/position = Vector2(80, 420)
-nodes/fragment/connections = PackedInt32Array(47, 0, 66, 0, 67, 0, 66, 2, 68, 0, 66, 1, 69, 0, 66, 3, 65, 0, 66, 4, 66, 0, 0, 0)
-
-[sub_resource type="ShaderMaterial" id="281"]
-shader = SubResource("280")
-
-[sub_resource type="VisualShaderNodeCustom" id="282"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1.0, 4, 0]
-initialized = true
-script = ExtResource("47")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="283"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="284"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="285"]
-constant = 1.0
-
-[sub_resource type="VisualShader" id="286"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(720, 280)
-nodes/fragment/47/node = SubResource("245")
-nodes/fragment/47/position = Vector2(80, 180)
-nodes/fragment/65/node = SubResource("273")
-nodes/fragment/65/position = Vector2(100, 520)
-nodes/fragment/70/node = SubResource("282")
-nodes/fragment/70/position = Vector2(500, 280)
-nodes/fragment/71/node = SubResource("283")
-nodes/fragment/71/position = Vector2(220, 360)
-nodes/fragment/72/node = SubResource("284")
-nodes/fragment/72/position = Vector2(80, 260)
-nodes/fragment/73/node = SubResource("285")
-nodes/fragment/73/position = Vector2(220, 440)
-nodes/fragment/connections = PackedInt32Array(47, 0, 70, 0, 71, 0, 70, 2, 73, 0, 70, 3, 70, 0, 0, 0, 72, 0, 70, 1)
-
-[sub_resource type="ShaderMaterial" id="287"]
-shader = SubResource("286")
-
-[sub_resource type="VisualShaderNodeInput" id="288"]
-input_name = "uv"
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="289"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="290"]
-
-[sub_resource type="VisualShaderNodeCustom" id="291"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5]
-initialized = true
-script = ExtResource("48")
-
-[sub_resource type="VisualShader" id="292"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(720, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(100, 200)
-nodes/fragment/71/node = SubResource("289")
-nodes/fragment/71/position = Vector2(240, 380)
-nodes/fragment/72/node = SubResource("290")
-nodes/fragment/72/position = Vector2(100, 280)
-nodes/fragment/74/node = SubResource("291")
-nodes/fragment/74/position = Vector2(500, 280)
-
-[sub_resource type="ShaderMaterial" id="293"]
-shader = SubResource("292")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="294"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="295"]
-
-[sub_resource type="VisualShaderNodeCustom" id="296"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 0]
-initialized = true
-script = ExtResource("49")
-
-[sub_resource type="VisualShaderNodeInput" id="297"]
-input_name = "time"
-
-[sub_resource type="VisualShader" id="298"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(720, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(80, 180)
-nodes/fragment/75/node = SubResource("294")
-nodes/fragment/75/position = Vector2(220, 360)
-nodes/fragment/76/node = SubResource("295")
-nodes/fragment/76/position = Vector2(80, 260)
-nodes/fragment/77/node = SubResource("296")
-nodes/fragment/77/position = Vector2(500, 280)
-nodes/fragment/78/node = SubResource("297")
-nodes/fragment/78/position = Vector2(100, 440)
-nodes/fragment/connections = PackedInt32Array(47, 0, 77, 0, 76, 0, 77, 1, 75, 0, 77, 2, 78, 0, 77, 3, 77, 0, 0, 0)
-
-[sub_resource type="ShaderMaterial" id="299"]
-shader = SubResource("298")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="300"]
-
-[sub_resource type="VisualShaderNodeCustom" id="301"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
-initialized = true
-script = ExtResource("50")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="302"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="303"]
-constant = 1.0
-
-[sub_resource type="VisualShader" id="304"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(840, 400)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(160, 260)
-nodes/fragment/78/node = SubResource("297")
-nodes/fragment/78/position = Vector2(180, 600)
-nodes/fragment/80/node = SubResource("300")
-nodes/fragment/80/position = Vector2(160, 340)
-nodes/fragment/81/node = SubResource("301")
-nodes/fragment/81/position = Vector2(600, 400)
-nodes/fragment/82/node = SubResource("302")
-nodes/fragment/82/position = Vector2(300, 440)
-nodes/fragment/83/node = SubResource("303")
-nodes/fragment/83/position = Vector2(300, 520)
-
-[sub_resource type="ShaderMaterial" id="305"]
-shader = SubResource("304")
-
-[sub_resource type="VisualShaderNodeCustom" id="306"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1]
-initialized = true
-script = ExtResource("51")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="307"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="308"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="309"]
-constant = 1.0
-
-[sub_resource type="VisualShader" id="310"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(740, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(100, 140)
-nodes/fragment/84/node = SubResource("306")
-nodes/fragment/84/position = Vector2(500, 280)
-nodes/fragment/85/node = SubResource("307")
-nodes/fragment/85/position = Vector2(90, 230)
-nodes/fragment/86/node = SubResource("308")
-nodes/fragment/86/position = Vector2(230, 330)
-nodes/fragment/87/node = SubResource("309")
-nodes/fragment/87/position = Vector2(230, 410)
-
-[sub_resource type="ShaderMaterial" id="311"]
-shader = SubResource("310")
-
-[sub_resource type="VisualShaderNodeCustom" id="312"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1]
-initialized = true
-script = ExtResource("52")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="313"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="314"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="315"]
-constant = 1.0
-
-[sub_resource type="VisualShader" id="316"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(740, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(100, 140)
-nodes/fragment/88/node = SubResource("312")
-nodes/fragment/88/position = Vector2(520, 280)
-nodes/fragment/89/node = SubResource("313")
-nodes/fragment/89/position = Vector2(100, 240)
-nodes/fragment/90/node = SubResource("314")
-nodes/fragment/90/position = Vector2(240, 340)
-nodes/fragment/91/node = SubResource("315")
-nodes/fragment/91/position = Vector2(240, 420)
-
-[sub_resource type="ShaderMaterial" id="317"]
-shader = SubResource("316")
-
-[sub_resource type="VisualShaderNodeCustom" id="318"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
-initialized = true
-script = ExtResource("53")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="319"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="320"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="321"]
-constant = 1.0
-
-[sub_resource type="VisualShaderNodeInput" id="322"]
-input_name = "time"
-
-[sub_resource type="VisualShader" id="323"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(760, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(120, 140)
-nodes/fragment/92/node = SubResource("318")
-nodes/fragment/92/position = Vector2(520, 280)
-nodes/fragment/93/node = SubResource("319")
-nodes/fragment/93/position = Vector2(120, 220)
-nodes/fragment/94/node = SubResource("320")
-nodes/fragment/94/position = Vector2(260, 320)
-nodes/fragment/95/node = SubResource("321")
-nodes/fragment/95/position = Vector2(260, 400)
-nodes/fragment/96/node = SubResource("322")
-nodes/fragment/96/position = Vector2(140, 480)
-
-[sub_resource type="ShaderMaterial" id="324"]
-shader = SubResource("323")
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="325"]
-constant = 1.0
-
-[sub_resource type="VisualShaderNodeCustom" id="326"]
-default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
-initialized = true
-script = ExtResource("54")
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="327"]
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="328"]
-constant = 10.0
-
-[sub_resource type="VisualShader" id="329"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(760, 280)
-nodes/fragment/47/node = SubResource("288")
-nodes/fragment/47/position = Vector2(120, 140)
-nodes/fragment/96/node = SubResource("322")
-nodes/fragment/96/position = Vector2(140, 500)
-nodes/fragment/97/node = SubResource("326")
-nodes/fragment/97/position = Vector2(540, 280)
-nodes/fragment/98/node = SubResource("327")
-nodes/fragment/98/position = Vector2(120, 220)
-nodes/fragment/99/node = SubResource("328")
-nodes/fragment/99/position = Vector2(260, 320)
-nodes/fragment/100/node = SubResource("325")
-nodes/fragment/100/position = Vector2(260, 400)
-
-[sub_resource type="ShaderMaterial" id="330"]
-shader = SubResource("329")
 
 [sub_resource type="VisualShaderNodeTexture" id="332"]
 expanded_output_ports = [0]
@@ -2140,7 +1771,7 @@ nodes/fragment/27/expression = "Sometimes texture may show out of its true borde
 To fix it, use ClampAlphaBorder node.
 Set 'alpha' port from \"Texture2D\" node to 'Alpha' port of \"Output\"
 node to see the difference."
-nodes/fragment/connections = PackedInt32Array(22, 0, 23, 1, 21, 0, 0, 1, 23, 0, 0, 0, 23, 4, 21, 0)
+nodes/fragment/connections = PackedInt32Array(22, 0, 23, 1, 25, 0, 24, 0, 24, 0, 23, 0, 26, 0, 24, 1, 24, 0, 21, 1, 21, 0, 0, 1, 23, 0, 0, 0, 23, 4, 21, 0)
 
 [sub_resource type="ShaderMaterial" id="367"]
 shader = SubResource("366")
@@ -2215,6 +1846,7 @@ nodes/fragment/8/node = SubResource("376")
 nodes/fragment/8/position = Vector2(-40, 320)
 nodes/fragment/9/node = SubResource("377")
 nodes/fragment/9/position = Vector2(-40, 400)
+nodes/fragment/connections = PackedInt32Array(4, 0, 5, 0, 5, 1, 0, 1, 6, 0, 5, 1, 7, 0, 5, 2, 9, 0, 5, 4, 8, 0, 5, 3, 5, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="379"]
 shader = SubResource("378")
@@ -2288,6 +1920,7 @@ nodes/fragment/20/node = SubResource("390")
 nodes/fragment/20/position = Vector2(-20, 800)
 nodes/fragment/21/node = SubResource("391")
 nodes/fragment/21/position = Vector2(-20, 880)
+nodes/fragment/connections = PackedInt32Array(6, 0, 10, 0, 10, 1, 0, 1, 14, 0, 10, 2, 15, 0, 10, 12, 18, 0, 10, 7, 19, 0, 10, 9, 20, 0, 10, 10, 21, 0, 10, 11, 16, 0, 10, 3, 17, 0, 10, 5, 10, 0, 0, 0, 11, 0, 10, 1, 13, 0, 11, 1, 12, 0, 11, 0)
 
 [sub_resource type="ShaderMaterial" id="393"]
 shader = SubResource("392")
@@ -2329,6 +1962,7 @@ nodes/fragment/25/node = SubResource("397")
 nodes/fragment/25/position = Vector2(500, 720)
 nodes/fragment/26/node = SubResource("398")
 nodes/fragment/26/position = Vector2(500, 900)
+nodes/fragment/connections = PackedInt32Array(22, 1, 0, 1, 6, 0, 22, 0, 23, 0, 22, 1, 24, 0, 22, 3, 25, 0, 22, 5, 26, 0, 22, 7, 22, 0, 0, 0, 26, 4, 22, 8, 25, 4, 22, 6, 24, 4, 22, 4, 23, 4, 22, 2)
 
 [sub_resource type="ShaderMaterial" id="400"]
 shader = SubResource("399")
@@ -2372,10 +2006,18 @@ nodes/fragment/32/node = SubResource("405")
 nodes/fragment/32/position = Vector2(540, 460)
 nodes/fragment/33/node = SubResource("406")
 nodes/fragment/33/position = Vector2(260, 420)
-nodes/fragment/connections = PackedInt32Array(33, 0, 32, 0)
+nodes/fragment/connections = PackedInt32Array(28, 0, 27, 0, 30, 0, 27, 3, 27, 1, 0, 1, 27, 0, 0, 0, 28, 4, 27, 1, 31, 0, 27, 4, 33, 0, 32, 0, 32, 0, 27, 2)
+
+[sub_resource type="Gradient" id="408"]
+offsets = PackedFloat32Array(0, 0.174242, 0.336134, 0.504202, 0.705882, 0.865546, 1)
+colors = PackedColorArray(1, 0, 0, 1, 1, 0.726563, 0, 1, 0.640625, 1, 0, 1, 0, 1, 1, 1, 0, 0.132813, 1, 1, 1, 0, 0.984375, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_y2syp"]
+gradient = SubResource("408")
 
 [sub_resource type="ShaderMaterial" id="410"]
 shader = SubResource("407")
+shader_parameter/gradient = SubResource("GradientTexture1D_y2syp")
 
 [sub_resource type="VisualShaderNodeCustom" id="411"]
 default_input_values = [1, 1.0]
@@ -2400,7 +2042,7 @@ nodes/fragment/3/node = SubResource("412")
 nodes/fragment/3/position = Vector2(0, 220)
 nodes/fragment/4/node = SubResource("413")
 nodes/fragment/4/position = Vector2(60, 140)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 2, 0, 0, 0, 4, 0, 2, 1, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="415"]
 shader = SubResource("414")
@@ -2417,7 +2059,7 @@ nodes/fragment/3/node = SubResource("412")
 nodes/fragment/3/position = Vector2(0, 200)
 nodes/fragment/5/node = SubResource("416")
 nodes/fragment/5/position = Vector2(320, 180)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(3, 0, 5, 0, 5, 0, 0, 0, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="418"]
 shader = SubResource("417")
@@ -2440,6 +2082,7 @@ nodes/fragment/6/node = SubResource("419")
 nodes/fragment/6/position = Vector2(380, 200)
 nodes/fragment/7/node = SubResource("420")
 nodes/fragment/7/position = Vector2(140, 380)
+nodes/fragment/connections = PackedInt32Array(3, 0, 6, 0, 6, 1, 0, 1, 7, 0, 6, 2, 6, 0, 0, 0, 3, 4, 6, 1)
 
 [sub_resource type="ShaderMaterial" id="422"]
 shader = SubResource("421")
@@ -2463,6 +2106,7 @@ nodes/fragment/8/node = SubResource("423")
 nodes/fragment/8/position = Vector2(400, 0)
 nodes/fragment/9/node = SubResource("424")
 nodes/fragment/9/position = Vector2(100, 60)
+nodes/fragment/connections = PackedInt32Array(3, 0, 8, 0, 8, 1, 0, 1, 8, 0, 0, 0, 9, 4, 8, 2, 3, 4, 8, 1)
 
 [sub_resource type="ShaderMaterial" id="426"]
 shader = SubResource("425")
@@ -2485,7 +2129,7 @@ nodes/fragment/10/node = SubResource("427")
 nodes/fragment/10/position = Vector2(400, -140)
 nodes/fragment/11/node = SubResource("428")
 nodes/fragment/11/position = Vector2(140, -120)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(11, 0, 10, 1, 3, 0, 10, 0, 10, 0, 0, 0, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="430"]
 shader = SubResource("429")
@@ -2519,7 +2163,7 @@ nodes/fragment/14/node = SubResource("433")
 nodes/fragment/14/position = Vector2(180, -140)
 nodes/fragment/15/node = SubResource("434")
 nodes/fragment/15/position = Vector2(180, -80)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(15, 0, 12, 3, 14, 0, 12, 2, 3, 0, 12, 0, 3, 4, 0, 1, 13, 0, 12, 1, 12, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="436"]
 shader = SubResource("435")
@@ -2577,6 +2221,7 @@ nodes/fragment/23/node = SubResource("444")
 nodes/fragment/23/position = Vector2(300, 220)
 nodes/fragment/24/node = SubResource("445")
 nodes/fragment/24/position = Vector2(300, 280)
+nodes/fragment/connections = PackedInt32Array(3, 0, 16, 1, 16, 1, 0, 1, 17, 0, 16, 0, 18, 0, 16, 9, 19, 0, 16, 3, 20, 0, 16, 4, 21, 0, 16, 5, 22, 0, 16, 6, 23, 0, 16, 7, 24, 0, 16, 8, 16, 0, 0, 0, 3, 4, 16, 2)
 
 [sub_resource type="ShaderMaterial" id="447"]
 shader = SubResource("446")
@@ -2628,7 +2273,7 @@ nodes/fragment/28/node = SubResource("453")
 nodes/fragment/28/position = Vector2(240, -360)
 nodes/fragment/29/node = SubResource("454")
 nodes/fragment/29/position = Vector2(240, -280)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(3, 0, 27, 0, 28, 0, 27, 1, 29, 0, 27, 2, 27, 0, 0, 0, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="456"]
 shader = SubResource("455")
@@ -2651,7 +2296,7 @@ nodes/fragment/30/node = SubResource("457")
 nodes/fragment/30/position = Vector2(560, -340)
 nodes/fragment/31/node = SubResource("458")
 nodes/fragment/31/position = Vector2(280, -280)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(3, 0, 30, 0, 31, 0, 30, 1, 30, 0, 0, 0, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="460"]
 shader = SubResource("459")
@@ -2674,10 +2319,594 @@ nodes/fragment/32/node = SubResource("461")
 nodes/fragment/32/position = Vector2(280, -280)
 nodes/fragment/33/node = SubResource("462")
 nodes/fragment/33/position = Vector2(540, -300)
-nodes/fragment/connections = PackedInt32Array(3, 4, 0, 1)
+nodes/fragment/connections = PackedInt32Array(32, 0, 33, 1, 3, 0, 33, 0, 33, 0, 0, 0, 3, 4, 0, 1)
 
 [sub_resource type="ShaderMaterial" id="464"]
 shader = SubResource("463")
+
+[sub_resource type="VisualShaderNodeCustom" id="574"]
+default_input_values = [2, Vector3(64, 64, 0), 3, 10, 4, false, 5, false, 6, false]
+initialized = true
+script = ExtResource("88")
+
+[sub_resource type="VisualShaderNodeInput" id="575"]
+input_name = "texture"
+
+[sub_resource type="VisualShaderNodeInput" id="576"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="577"]
+constant = Vector3(68, 68, 0)
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="578"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeBooleanConstant" id="579"]
+
+[sub_resource type="VisualShaderNodeBooleanConstant" id="580"]
+
+[sub_resource type="VisualShaderNodeBooleanConstant" id="581"]
+
+[sub_resource type="VisualShader" id="582"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(420, 200)
+nodes/fragment/2/node = SubResource("574")
+nodes/fragment/2/position = Vector2(80, 200)
+nodes/fragment/3/node = SubResource("575")
+nodes/fragment/3/position = Vector2(-260, 40)
+nodes/fragment/4/node = SubResource("576")
+nodes/fragment/4/position = Vector2(-300, 120)
+nodes/fragment/5/node = SubResource("577")
+nodes/fragment/5/position = Vector2(-300, 180)
+nodes/fragment/6/node = SubResource("578")
+nodes/fragment/6/position = Vector2(-160, 260)
+nodes/fragment/7/node = SubResource("579")
+nodes/fragment/7/position = Vector2(-180, 320)
+nodes/fragment/8/node = SubResource("580")
+nodes/fragment/8/position = Vector2(-180, 380)
+nodes/fragment/9/node = SubResource("581")
+nodes/fragment/9/position = Vector2(-180, 440)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 1, 5, 0, 2, 2, 6, 0, 2, 3, 7, 0, 2, 4, 8, 0, 2, 5, 9, 0, 2, 6, 2, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="583"]
+shader = SubResource("582")
+
+[sub_resource type="VisualShaderNodeCustom" id="584"]
+output_port_for_preview = 0
+default_input_values = [0, Vector3(1, 1, 0)]
+expanded_output_ports = [0]
+initialized = true
+script = ExtResource("89")
+
+[sub_resource type="VisualShaderNodeCustom" id="585"]
+output_port_for_preview = 0
+default_input_values = [0, Vector3(1, 1, 1)]
+expanded_output_ports = [0]
+initialized = true
+script = ExtResource("91")
+
+[sub_resource type="VisualShaderNodeCustom" id="586"]
+output_port_for_preview = 0
+default_input_values = [0, Vector3(1, 1, 0)]
+expanded_output_ports = [0]
+initialized = true
+script = ExtResource("92")
+
+[sub_resource type="VisualShaderNodeCustom" id="587"]
+output_port_for_preview = 0
+default_input_values = [0, Vector3(1, 1, 1)]
+expanded_output_ports = [0]
+initialized = true
+script = ExtResource("90")
+
+[sub_resource type="VisualShaderNodeInput" id="588"]
+output_port_for_preview = 0
+expanded_output_ports = [0]
+input_name = "uv"
+
+[sub_resource type="VisualShader" id="589"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(680, -20)
+nodes/fragment/2/node = SubResource("584")
+nodes/fragment/2/position = Vector2(-20, -200)
+nodes/fragment/3/node = SubResource("585")
+nodes/fragment/3/position = Vector2(-120, 140)
+nodes/fragment/4/node = SubResource("586")
+nodes/fragment/4/position = Vector2(240, -200)
+nodes/fragment/5/node = SubResource("587")
+nodes/fragment/5/position = Vector2(260, 140)
+nodes/fragment/6/node = SubResource("588")
+nodes/fragment/6/position = Vector2(-540, -80)
+nodes/fragment/connections = PackedInt32Array(3, 0, 5, 0, 2, 0, 4, 0, 5, 0, 0, 0, 6, 0, 2, 0, 6, 0, 3, 0)
+
+[sub_resource type="ShaderMaterial" id="590"]
+shader = SubResource("589")
+
+[sub_resource type="VisualShaderNodeCustom" id="591"]
+default_input_values = [1, Vector3(8, 8, 0), 2, Vector3(0.2, 0.2, 0), 3, Vector3(0.01, 0.01, 0), 4, Vector3(1, 1, 1), 5, 1.0, 6, Vector3(0, 0, 0), 7, 0.0]
+initialized = true
+script = ExtResource("93")
+
+[sub_resource type="VisualShaderNodeColorConstant" id="592"]
+constant = Color(1, 0, 0, 1)
+
+[sub_resource type="VisualShaderNodeColorConstant" id="593"]
+constant = Color(1, 1, 0, 0)
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="594"]
+constant = Vector3(0.05, 0.05, 0)
+
+[sub_resource type="VisualShaderNodeInput" id="595"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="596"]
+constant = Vector3(0.2, 0.2, 0)
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="597"]
+constant = Vector3(8, 8, 0)
+
+[sub_resource type="VisualShader" id="598"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(400, 200)
+nodes/fragment/2/node = SubResource("591")
+nodes/fragment/2/position = Vector2(100, 200)
+nodes/fragment/3/node = SubResource("592")
+nodes/fragment/3/position = Vector2(-160, 400)
+nodes/fragment/4/node = SubResource("593")
+nodes/fragment/4/position = Vector2(-160, 480)
+nodes/fragment/5/node = SubResource("594")
+nodes/fragment/5/position = Vector2(-320, 300)
+nodes/fragment/6/node = SubResource("595")
+nodes/fragment/6/position = Vector2(-320, 60)
+nodes/fragment/7/node = SubResource("596")
+nodes/fragment/7/position = Vector2(-320, 220)
+nodes/fragment/8/node = SubResource("597")
+nodes/fragment/8/position = Vector2(-320, 140)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 4, 4, 0, 2, 6, 5, 0, 2, 3, 6, 0, 2, 0, 7, 0, 2, 2, 8, 0, 2, 1, 2, 1, 0, 1, 2, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="599"]
+shader = SubResource("598")
+
+[sub_resource type="VisualShaderNodeCustom" id="600"]
+default_input_values = [2, -1.0, 3, 0.001, 4, false, 5, false]
+initialized = true
+script = ExtResource("94")
+
+[sub_resource type="VisualShaderNodeInput" id="601"]
+input_name = "texture"
+
+[sub_resource type="VisualShaderNodeInput" id="602"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="603"]
+constant = -1.0
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="604"]
+constant = 0.005
+
+[sub_resource type="VisualShaderNodeBooleanConstant" id="605"]
+
+[sub_resource type="VisualShaderNodeBooleanConstant" id="606"]
+
+[sub_resource type="VisualShaderNodeColorConstant" id="VisualShaderNodeColorConstant_vb5u8"]
+
+[sub_resource type="VisualShader" id="607"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(400, 200)
+nodes/fragment/2/node = SubResource("600")
+nodes/fragment/2/position = Vector2(100, 200)
+nodes/fragment/3/node = SubResource("601")
+nodes/fragment/3/position = Vector2(-220, 40)
+nodes/fragment/4/node = SubResource("602")
+nodes/fragment/4/position = Vector2(-260, 120)
+nodes/fragment/5/node = SubResource("603")
+nodes/fragment/5/position = Vector2(-120, 200)
+nodes/fragment/6/node = SubResource("604")
+nodes/fragment/6/position = Vector2(-120, 260)
+nodes/fragment/7/node = SubResource("605")
+nodes/fragment/7/position = Vector2(-100, 320)
+nodes/fragment/8/node = SubResource("606")
+nodes/fragment/8/position = Vector2(-100, 380)
+nodes/fragment/9/node = SubResource("VisualShaderNodeColorConstant_vb5u8")
+nodes/fragment/9/position = Vector2(220, 100)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 1, 5, 0, 2, 2, 6, 0, 2, 3, 7, 0, 2, 4, 8, 0, 2, 5, 2, 0, 0, 1, 9, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="608"]
+shader = SubResource("607")
+
+[sub_resource type="VisualShaderNodeCustom" id="259"]
+output_port_for_preview = 0
+default_input_values = [1, Vector3(0, 0, 0), 2, 5]
+initialized = true
+script = ExtResource("43")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="260"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="261"]
+constant = 10.0
+
+[sub_resource type="VisualShader" id="262"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(660, 220)
+nodes/fragment/47/node = SubResource("245")
+nodes/fragment/47/position = Vector2(60, 140)
+nodes/fragment/55/node = SubResource("259")
+nodes/fragment/55/position = Vector2(440, 220)
+nodes/fragment/56/node = SubResource("260")
+nodes/fragment/56/position = Vector2(60, 220)
+nodes/fragment/57/node = SubResource("261")
+nodes/fragment/57/position = Vector2(200, 320)
+nodes/fragment/connections = PackedInt32Array(47, 0, 55, 0, 56, 0, 55, 1, 57, 0, 55, 2, 55, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="263"]
+shader = SubResource("262")
+
+[sub_resource type="VisualShaderNodeCustom" id="264"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, Vector3(0, 0, 0)]
+initialized = true
+script = ExtResource("44")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="265"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="266"]
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="267"]
+
+[sub_resource type="VisualShader" id="268"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(700, 220)
+nodes/fragment/47/node = SubResource("245")
+nodes/fragment/47/position = Vector2(60, 120)
+nodes/fragment/66/node = SubResource("264")
+nodes/fragment/66/position = Vector2(480, 220)
+nodes/fragment/67/node = SubResource("265")
+nodes/fragment/67/position = Vector2(200, 300)
+nodes/fragment/68/node = SubResource("266")
+nodes/fragment/68/position = Vector2(60, 200)
+nodes/fragment/69/node = SubResource("267")
+nodes/fragment/69/position = Vector2(60, 380)
+nodes/fragment/connections = PackedInt32Array(47, 0, 66, 0, 67, 0, 66, 2, 69, 0, 66, 3, 68, 0, 66, 1, 66, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="269"]
+shader = SubResource("268")
+
+[sub_resource type="VisualShaderNodeInput" id="273"]
+input_name = "time"
+
+[sub_resource type="VisualShaderNodeCustom" id="282"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1.0, 4, 0]
+initialized = true
+script = ExtResource("47")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="283"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="284"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="285"]
+constant = 1.0
+
+[sub_resource type="VisualShader" id="286"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(720, 280)
+nodes/fragment/47/node = SubResource("245")
+nodes/fragment/47/position = Vector2(80, 180)
+nodes/fragment/65/node = SubResource("273")
+nodes/fragment/65/position = Vector2(100, 520)
+nodes/fragment/70/node = SubResource("282")
+nodes/fragment/70/position = Vector2(500, 280)
+nodes/fragment/71/node = SubResource("283")
+nodes/fragment/71/position = Vector2(220, 360)
+nodes/fragment/72/node = SubResource("284")
+nodes/fragment/72/position = Vector2(80, 260)
+nodes/fragment/73/node = SubResource("285")
+nodes/fragment/73/position = Vector2(220, 440)
+nodes/fragment/connections = PackedInt32Array(47, 0, 70, 0, 71, 0, 70, 2, 73, 0, 70, 3, 70, 0, 0, 0, 72, 0, 70, 1)
+
+[sub_resource type="ShaderMaterial" id="287"]
+shader = SubResource("286")
+
+[sub_resource type="VisualShaderNodeInput" id="288"]
+input_name = "uv"
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="289"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="290"]
+
+[sub_resource type="VisualShaderNodeCustom" id="291"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5]
+initialized = true
+script = ExtResource("48")
+
+[sub_resource type="VisualShader" id="292"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(720, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(100, 200)
+nodes/fragment/71/node = SubResource("289")
+nodes/fragment/71/position = Vector2(240, 380)
+nodes/fragment/72/node = SubResource("290")
+nodes/fragment/72/position = Vector2(100, 280)
+nodes/fragment/74/node = SubResource("291")
+nodes/fragment/74/position = Vector2(500, 280)
+nodes/fragment/connections = PackedInt32Array(47, 0, 74, 0, 72, 0, 74, 1, 71, 0, 74, 2, 74, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="293"]
+shader = SubResource("292")
+
+[sub_resource type="VisualShaderNodeCustom" id="270"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 0]
+initialized = true
+script = ExtResource("45")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="271"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="272"]
+
+[sub_resource type="VisualShader" id="274"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(680, 280)
+nodes/fragment/47/node = SubResource("245")
+nodes/fragment/47/position = Vector2(100, 180)
+nodes/fragment/62/node = SubResource("270")
+nodes/fragment/62/position = Vector2(480, 280)
+nodes/fragment/63/node = SubResource("271")
+nodes/fragment/63/position = Vector2(220, 360)
+nodes/fragment/64/node = SubResource("272")
+nodes/fragment/64/position = Vector2(80, 260)
+nodes/fragment/65/node = SubResource("273")
+nodes/fragment/65/position = Vector2(100, 440)
+nodes/fragment/connections = PackedInt32Array(47, 0, 62, 0, 63, 0, 62, 2, 64, 0, 62, 1, 65, 0, 62, 3, 62, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="275"]
+shader = SubResource("274")
+
+[sub_resource type="VisualShaderNodeCustom" id="276"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, Vector3(0, 0, 0), 4, 0]
+initialized = true
+script = ExtResource("46")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="277"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="278"]
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="279"]
+constant = Vector3(1, 10, 0)
+
+[sub_resource type="VisualShader" id="280"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(720, 280)
+nodes/fragment/47/node = SubResource("245")
+nodes/fragment/47/position = Vector2(80, 160)
+nodes/fragment/65/node = SubResource("273")
+nodes/fragment/65/position = Vector2(100, 540)
+nodes/fragment/66/node = SubResource("276")
+nodes/fragment/66/position = Vector2(460, 280)
+nodes/fragment/67/node = SubResource("277")
+nodes/fragment/67/position = Vector2(220, 340)
+nodes/fragment/68/node = SubResource("278")
+nodes/fragment/68/position = Vector2(80, 240)
+nodes/fragment/69/node = SubResource("279")
+nodes/fragment/69/position = Vector2(80, 420)
+nodes/fragment/connections = PackedInt32Array(47, 0, 66, 0, 67, 0, 66, 2, 68, 0, 66, 1, 69, 0, 66, 3, 65, 0, 66, 4, 66, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="281"]
+shader = SubResource("280")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="294"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="295"]
+
+[sub_resource type="VisualShaderNodeCustom" id="296"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 0]
+initialized = true
+script = ExtResource("49")
+
+[sub_resource type="VisualShaderNodeInput" id="297"]
+input_name = "time"
+
+[sub_resource type="VisualShader" id="298"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(720, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(80, 180)
+nodes/fragment/75/node = SubResource("294")
+nodes/fragment/75/position = Vector2(220, 360)
+nodes/fragment/76/node = SubResource("295")
+nodes/fragment/76/position = Vector2(80, 260)
+nodes/fragment/77/node = SubResource("296")
+nodes/fragment/77/position = Vector2(500, 280)
+nodes/fragment/78/node = SubResource("297")
+nodes/fragment/78/position = Vector2(100, 440)
+nodes/fragment/connections = PackedInt32Array(47, 0, 77, 0, 76, 0, 77, 1, 75, 0, 77, 2, 78, 0, 77, 3, 77, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="299"]
+shader = SubResource("298")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="300"]
+
+[sub_resource type="VisualShaderNodeCustom" id="301"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
+initialized = true
+script = ExtResource("50")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="302"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="303"]
+constant = 1.0
+
+[sub_resource type="VisualShader" id="304"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(840, 400)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(160, 260)
+nodes/fragment/78/node = SubResource("297")
+nodes/fragment/78/position = Vector2(180, 600)
+nodes/fragment/80/node = SubResource("300")
+nodes/fragment/80/position = Vector2(160, 340)
+nodes/fragment/81/node = SubResource("301")
+nodes/fragment/81/position = Vector2(600, 400)
+nodes/fragment/82/node = SubResource("302")
+nodes/fragment/82/position = Vector2(300, 440)
+nodes/fragment/83/node = SubResource("303")
+nodes/fragment/83/position = Vector2(300, 520)
+nodes/fragment/connections = PackedInt32Array(47, 0, 81, 0, 80, 0, 81, 1, 82, 0, 81, 2, 83, 0, 81, 3, 78, 0, 81, 4, 81, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="305"]
+shader = SubResource("304")
+
+[sub_resource type="VisualShaderNodeCustom" id="306"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1]
+initialized = true
+script = ExtResource("51")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="307"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="308"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="309"]
+constant = 1.0
+
+[sub_resource type="VisualShader" id="310"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(740, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(100, 140)
+nodes/fragment/84/node = SubResource("306")
+nodes/fragment/84/position = Vector2(500, 280)
+nodes/fragment/85/node = SubResource("307")
+nodes/fragment/85/position = Vector2(90, 230)
+nodes/fragment/86/node = SubResource("308")
+nodes/fragment/86/position = Vector2(230, 330)
+nodes/fragment/87/node = SubResource("309")
+nodes/fragment/87/position = Vector2(230, 410)
+nodes/fragment/connections = PackedInt32Array(85, 0, 84, 1, 86, 0, 84, 2, 87, 0, 84, 3, 47, 0, 84, 0, 84, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="311"]
+shader = SubResource("310")
+
+[sub_resource type="VisualShaderNodeCustom" id="312"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1]
+initialized = true
+script = ExtResource("52")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="313"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="314"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="315"]
+constant = 1.0
+
+[sub_resource type="VisualShader" id="316"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(740, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(100, 140)
+nodes/fragment/88/node = SubResource("312")
+nodes/fragment/88/position = Vector2(520, 280)
+nodes/fragment/89/node = SubResource("313")
+nodes/fragment/89/position = Vector2(100, 240)
+nodes/fragment/90/node = SubResource("314")
+nodes/fragment/90/position = Vector2(240, 340)
+nodes/fragment/91/node = SubResource("315")
+nodes/fragment/91/position = Vector2(240, 420)
+nodes/fragment/connections = PackedInt32Array(47, 0, 88, 0, 89, 0, 88, 1, 90, 0, 88, 2, 91, 0, 88, 3, 88, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="317"]
+shader = SubResource("316")
+
+[sub_resource type="VisualShaderNodeCustom" id="318"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
+initialized = true
+script = ExtResource("53")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="319"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="320"]
+constant = 10.0
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="321"]
+constant = 1.0
+
+[sub_resource type="VisualShaderNodeInput" id="322"]
+input_name = "time"
+
+[sub_resource type="VisualShader" id="323"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(760, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(120, 140)
+nodes/fragment/92/node = SubResource("318")
+nodes/fragment/92/position = Vector2(520, 280)
+nodes/fragment/93/node = SubResource("319")
+nodes/fragment/93/position = Vector2(120, 220)
+nodes/fragment/94/node = SubResource("320")
+nodes/fragment/94/position = Vector2(260, 320)
+nodes/fragment/95/node = SubResource("321")
+nodes/fragment/95/position = Vector2(260, 400)
+nodes/fragment/96/node = SubResource("322")
+nodes/fragment/96/position = Vector2(140, 480)
+nodes/fragment/connections = PackedInt32Array(47, 0, 92, 0, 93, 0, 92, 1, 94, 0, 92, 2, 95, 0, 92, 3, 96, 0, 92, 4, 92, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="324"]
+shader = SubResource("323")
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="325"]
+constant = 1.0
+
+[sub_resource type="VisualShaderNodeCustom" id="326"]
+default_input_values = [1, Vector3(0, 0, 0), 2, 5, 3, 1, 4, 0]
+initialized = true
+script = ExtResource("54")
+
+[sub_resource type="VisualShaderNodeVec3Constant" id="327"]
+
+[sub_resource type="VisualShaderNodeFloatConstant" id="328"]
+constant = 10.0
+
+[sub_resource type="VisualShader" id="329"]
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2(760, 280)
+nodes/fragment/47/node = SubResource("288")
+nodes/fragment/47/position = Vector2(120, 140)
+nodes/fragment/96/node = SubResource("322")
+nodes/fragment/96/position = Vector2(140, 500)
+nodes/fragment/97/node = SubResource("326")
+nodes/fragment/97/position = Vector2(540, 280)
+nodes/fragment/98/node = SubResource("327")
+nodes/fragment/98/position = Vector2(120, 220)
+nodes/fragment/99/node = SubResource("328")
+nodes/fragment/99/position = Vector2(260, 320)
+nodes/fragment/100/node = SubResource("325")
+nodes/fragment/100/position = Vector2(260, 400)
+nodes/fragment/connections = PackedInt32Array(47, 0, 97, 0, 98, 0, 97, 1, 99, 0, 97, 2, 100, 0, 97, 3, 96, 0, 97, 4, 97, 0, 0, 0)
+
+[sub_resource type="ShaderMaterial" id="330"]
+shader = SubResource("329")
 
 [sub_resource type="VisualShaderNodeFloatConstant" id="465"]
 constant = 2.0
@@ -2731,6 +2960,7 @@ nodes/fragment/9/node = SubResource("473")
 nodes/fragment/9/position = Vector2(-300, 540)
 nodes/fragment/10/node = SubResource("465")
 nodes/fragment/10/position = Vector2(-140, 140)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 1, 6, 0, 2, 4, 7, 0, 2, 5, 8, 0, 2, 6, 9, 0, 2, 7, 5, 0, 2, 3, 10, 0, 2, 2, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="475"]
 shader = SubResource("474")
@@ -2784,6 +3014,7 @@ nodes/fragment/10/node = SubResource("476")
 nodes/fragment/10/position = Vector2(-260, 120)
 nodes/fragment/11/node = SubResource("477")
 nodes/fragment/11/position = Vector2(-240, 540)
+nodes/fragment/connections = PackedInt32Array(3, 0, 4, 0, 5, 0, 4, 1, 6, 0, 4, 3, 7, 0, 4, 4, 8, 0, 4, 5, 9, 0, 4, 6, 10, 0, 4, 2, 11, 0, 4, 7, 4, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="485"]
 shader = SubResource("484")
@@ -2848,6 +3079,7 @@ nodes/fragment/13/node = SubResource("489")
 nodes/fragment/13/position = Vector2(180, 200)
 nodes/fragment/14/node = SubResource("490")
 nodes/fragment/14/position = Vector2(-80, 620)
+nodes/fragment/connections = PackedInt32Array(5, 0, 13, 0, 4, 0, 13, 1, 3, 0, 13, 2, 7, 0, 13, 3, 8, 0, 13, 4, 9, 0, 13, 5, 10, 0, 13, 6, 12, 0, 13, 7, 11, 0, 13, 8, 14, 0, 13, 9, 13, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="498"]
 shader = SubResource("497")
@@ -2903,6 +3135,7 @@ nodes/fragment/10/node = SubResource("499")
 nodes/fragment/10/position = Vector2(-80, 480)
 nodes/fragment/12/node = SubResource("500")
 nodes/fragment/12/position = Vector2(-80, 160)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 1, 10, 0, 2, 7, 5, 0, 2, 3, 6, 0, 2, 4, 7, 0, 2, 5, 8, 0, 2, 6, 12, 0, 2, 2, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="509"]
 shader = SubResource("508")
@@ -2972,6 +3205,7 @@ nodes/fragment/12/node = SubResource("512")
 nodes/fragment/12/position = Vector2(-60, 100)
 nodes/fragment/13/node = SubResource("513")
 nodes/fragment/13/position = Vector2(80, 40)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 10, 5, 0, 2, 9, 6, 0, 2, 8, 7, 0, 2, 7, 8, 0, 2, 6, 9, 0, 2, 5, 10, 0, 2, 4, 11, 0, 2, 3, 12, 0, 2, 2, 13, 0, 2, 1, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="523"]
 shader = SubResource("522")
@@ -3093,6 +3327,7 @@ nodes/fragment/10/node = SubResource("536")
 nodes/fragment/10/position = Vector2(-120, 320)
 nodes/fragment/11/node = SubResource("537")
 nodes/fragment/11/position = Vector2(-120, 380)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 5, 0, 2, 1, 6, 0, 2, 2, 4, 0, 2, 8, 7, 0, 2, 7, 8, 0, 2, 3, 9, 0, 2, 4, 10, 0, 2, 5, 11, 0, 2, 6, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="547"]
 shader = SubResource("546")
@@ -3158,6 +3393,7 @@ nodes/fragment/11/node = SubResource("549")
 nodes/fragment/11/position = Vector2(-200, 440)
 nodes/fragment/12/node = SubResource("550")
 nodes/fragment/12/position = Vector2(-60, 520)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 9, 5, 0, 2, 1, 9, 0, 2, 2, 6, 0, 2, 3, 7, 0, 2, 4, 8, 0, 2, 5, 10, 0, 2, 6, 11, 0, 2, 7, 12, 0, 2, 8, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="560"]
 shader = SubResource("559")
@@ -3223,202 +3459,14 @@ nodes/fragment/11/node = SubResource("562")
 nodes/fragment/11/position = Vector2(-40, 380)
 nodes/fragment/12/node = SubResource("563")
 nodes/fragment/12/position = Vector2(-40, 520)
+nodes/fragment/connections = PackedInt32Array(3, 0, 2, 0, 4, 0, 2, 9, 7, 0, 2, 3, 5, 0, 2, 1, 6, 0, 2, 2, 8, 0, 2, 4, 10, 0, 2, 5, 11, 0, 2, 6, 9, 0, 2, 7, 12, 0, 2, 8, 2, 0, 0, 0)
 
 [sub_resource type="ShaderMaterial" id="573"]
 shader = SubResource("572")
 
-[sub_resource type="VisualShaderNodeCustom" id="574"]
-default_input_values = [2, Vector3(64, 64, 0), 3, 10, 4, false, 5, false, 6, false]
-initialized = true
-script = ExtResource("88")
+[node name="BasicExamples" type="CanvasLayer" unique_id=962877885]
 
-[sub_resource type="VisualShaderNodeInput" id="575"]
-input_name = "texture"
-
-[sub_resource type="VisualShaderNodeInput" id="576"]
-input_name = "uv"
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="577"]
-constant = Vector3(68, 68, 0)
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="578"]
-constant = 10.0
-
-[sub_resource type="VisualShaderNodeBooleanConstant" id="579"]
-
-[sub_resource type="VisualShaderNodeBooleanConstant" id="580"]
-
-[sub_resource type="VisualShaderNodeBooleanConstant" id="581"]
-
-[sub_resource type="VisualShader" id="582"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(420, 200)
-nodes/fragment/2/node = SubResource("574")
-nodes/fragment/2/position = Vector2(80, 200)
-nodes/fragment/3/node = SubResource("575")
-nodes/fragment/3/position = Vector2(-260, 40)
-nodes/fragment/4/node = SubResource("576")
-nodes/fragment/4/position = Vector2(-300, 120)
-nodes/fragment/5/node = SubResource("577")
-nodes/fragment/5/position = Vector2(-300, 180)
-nodes/fragment/6/node = SubResource("578")
-nodes/fragment/6/position = Vector2(-160, 260)
-nodes/fragment/7/node = SubResource("579")
-nodes/fragment/7/position = Vector2(-180, 320)
-nodes/fragment/8/node = SubResource("580")
-nodes/fragment/8/position = Vector2(-180, 380)
-nodes/fragment/9/node = SubResource("581")
-nodes/fragment/9/position = Vector2(-180, 440)
-
-[sub_resource type="ShaderMaterial" id="583"]
-shader = SubResource("582")
-
-[sub_resource type="VisualShaderNodeCustom" id="584"]
-output_port_for_preview = 0
-default_input_values = [0, Vector3(1, 1, 0)]
-expanded_output_ports = [0]
-initialized = true
-script = ExtResource("89")
-
-[sub_resource type="VisualShaderNodeCustom" id="585"]
-output_port_for_preview = 0
-default_input_values = [0, Vector3(1, 1, 1)]
-expanded_output_ports = [0]
-initialized = true
-script = ExtResource("91")
-
-[sub_resource type="VisualShaderNodeCustom" id="586"]
-output_port_for_preview = 0
-default_input_values = [0, Vector3(1, 1, 0)]
-initialized = true
-script = ExtResource("92")
-
-[sub_resource type="VisualShaderNodeCustom" id="587"]
-output_port_for_preview = 0
-default_input_values = [0, Vector3(1, 1, 1)]
-initialized = true
-script = ExtResource("90")
-
-[sub_resource type="VisualShaderNodeInput" id="588"]
-output_port_for_preview = 0
-expanded_output_ports = [0]
-input_name = "uv"
-
-[sub_resource type="VisualShader" id="589"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(680, -20)
-nodes/fragment/2/node = SubResource("584")
-nodes/fragment/2/position = Vector2(-20, -200)
-nodes/fragment/3/node = SubResource("585")
-nodes/fragment/3/position = Vector2(-120, 140)
-nodes/fragment/4/node = SubResource("586")
-nodes/fragment/4/position = Vector2(240, -200)
-nodes/fragment/5/node = SubResource("587")
-nodes/fragment/5/position = Vector2(260, 140)
-nodes/fragment/6/node = SubResource("588")
-nodes/fragment/6/position = Vector2(-540, -80)
-nodes/fragment/connections = PackedInt32Array(6, 0, 2, 0, 6, 0, 3, 0)
-
-[sub_resource type="ShaderMaterial" id="590"]
-shader = SubResource("589")
-
-[sub_resource type="VisualShaderNodeCustom" id="591"]
-default_input_values = [1, Vector3(8, 8, 0), 2, Vector3(0.2, 0.2, 0), 3, Vector3(0.01, 0.01, 0), 4, Vector3(1, 1, 1), 5, 1.0, 6, Vector3(0, 0, 0), 7, 0.0]
-initialized = true
-script = ExtResource("93")
-
-[sub_resource type="VisualShaderNodeColorConstant" id="592"]
-constant = Color(1, 0, 0, 1)
-
-[sub_resource type="VisualShaderNodeColorConstant" id="593"]
-constant = Color(1, 1, 0, 0)
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="594"]
-constant = Vector3(0.05, 0.05, 0)
-
-[sub_resource type="VisualShaderNodeInput" id="595"]
-input_name = "uv"
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="596"]
-constant = Vector3(0.2, 0.2, 0)
-
-[sub_resource type="VisualShaderNodeVec3Constant" id="597"]
-constant = Vector3(8, 8, 0)
-
-[sub_resource type="VisualShader" id="598"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(400, 200)
-nodes/fragment/2/node = SubResource("591")
-nodes/fragment/2/position = Vector2(100, 200)
-nodes/fragment/3/node = SubResource("592")
-nodes/fragment/3/position = Vector2(-160, 400)
-nodes/fragment/4/node = SubResource("593")
-nodes/fragment/4/position = Vector2(-160, 480)
-nodes/fragment/5/node = SubResource("594")
-nodes/fragment/5/position = Vector2(-320, 300)
-nodes/fragment/6/node = SubResource("595")
-nodes/fragment/6/position = Vector2(-320, 60)
-nodes/fragment/7/node = SubResource("596")
-nodes/fragment/7/position = Vector2(-320, 220)
-nodes/fragment/8/node = SubResource("597")
-nodes/fragment/8/position = Vector2(-320, 140)
-
-[sub_resource type="ShaderMaterial" id="599"]
-shader = SubResource("598")
-
-[sub_resource type="VisualShaderNodeCustom" id="600"]
-default_input_values = [2, -1.0, 3, 0.001, 4, false, 5, false]
-initialized = true
-script = ExtResource("94")
-
-[sub_resource type="VisualShaderNodeInput" id="601"]
-input_name = "texture"
-
-[sub_resource type="VisualShaderNodeInput" id="602"]
-input_name = "uv"
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="603"]
-constant = -1.0
-
-[sub_resource type="VisualShaderNodeFloatConstant" id="604"]
-constant = 0.005
-
-[sub_resource type="VisualShaderNodeBooleanConstant" id="605"]
-
-[sub_resource type="VisualShaderNodeBooleanConstant" id="606"]
-
-[sub_resource type="VisualShaderNodeColorConstant" id="VisualShaderNodeColorConstant_vb5u8"]
-
-[sub_resource type="VisualShader" id="607"]
-mode = 1
-flags/light_only = false
-nodes/fragment/0/position = Vector2(400, 200)
-nodes/fragment/2/node = SubResource("600")
-nodes/fragment/2/position = Vector2(100, 200)
-nodes/fragment/3/node = SubResource("601")
-nodes/fragment/3/position = Vector2(-220, 40)
-nodes/fragment/4/node = SubResource("602")
-nodes/fragment/4/position = Vector2(-260, 120)
-nodes/fragment/5/node = SubResource("603")
-nodes/fragment/5/position = Vector2(-120, 200)
-nodes/fragment/6/node = SubResource("604")
-nodes/fragment/6/position = Vector2(-120, 260)
-nodes/fragment/7/node = SubResource("605")
-nodes/fragment/7/position = Vector2(-100, 320)
-nodes/fragment/8/node = SubResource("606")
-nodes/fragment/8/position = Vector2(-100, 380)
-nodes/fragment/9/node = SubResource("VisualShaderNodeColorConstant_vb5u8")
-nodes/fragment/9/position = Vector2(220, 100)
-nodes/fragment/connections = PackedInt32Array(9, 0, 0, 0)
-
-[sub_resource type="ShaderMaterial" id="608"]
-shader = SubResource("607")
-
-[node name="root" type="Control" unique_id=1261695760]
-texture_filter = 1
+[node name="Root" type="Control" parent="." unique_id=681260892]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -3426,36 +3474,30 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="container" type="GridContainer" parent="." unique_id=1544320132]
+[node name="container" type="GridContainer" parent="Root" unique_id=1544320132]
 texture_filter = 1
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -760.0
-offset_top = -491.0
-offset_right = 760.0
-offset_bottom = 491.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-columns = 11
+columns = 14
 
-[node name="distortionUV" type="VBoxContainer" parent="container" unique_id=1430838671]
+[node name="distortionUV" type="VBoxContainer" parent="Root/container" unique_id=1430838671]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/distortionUV" unique_id=1234200331]
+[node name="title" type="Label" parent="Root/container/distortionUV" unique_id=1234200331]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Distortion UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/distortionUV" unique_id=768834275]
+[node name="preview" type="TextureRect" parent="Root/container/distortionUV" unique_id=768834275]
 texture_filter = 1
 material = SubResource("8")
 custom_minimum_size = Vector2(60, 60)
@@ -3465,20 +3507,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="FlipUV" type="VBoxContainer" parent="container" unique_id=1135396916]
+[node name="FlipUV" type="VBoxContainer" parent="Root/container" unique_id=1135396916]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/FlipUV" unique_id=117683063]
+[node name="title" type="Label" parent="Root/container/FlipUV" unique_id=117683063]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Flip UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/FlipUV" unique_id=450522228]
+[node name="preview" type="TextureRect" parent="Root/container/FlipUV" unique_id=450522228]
 texture_filter = 1
 material = SubResource("15")
 custom_minimum_size = Vector2(60, 60)
@@ -3488,20 +3530,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="lensDistortion" type="VBoxContainer" parent="container" unique_id=375621993]
+[node name="lensDistortion" type="VBoxContainer" parent="Root/container" unique_id=375621993]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/lensDistortion" unique_id=914395325]
+[node name="title" type="Label" parent="Root/container/lensDistortion" unique_id=914395325]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Lens Distortion"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/lensDistortion" unique_id=1532731508]
+[node name="preview" type="TextureRect" parent="Root/container/lensDistortion" unique_id=1532731508]
 texture_filter = 1
 material = SubResource("19")
 custom_minimum_size = Vector2(60, 60)
@@ -3511,20 +3553,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="pixelate" type="VBoxContainer" parent="container" unique_id=122458795]
+[node name="pixelate" type="VBoxContainer" parent="Root/container" unique_id=122458795]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/pixelate" unique_id=1464332984]
+[node name="title" type="Label" parent="Root/container/pixelate" unique_id=1464332984]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Pixelate UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/pixelate" unique_id=859764783]
+[node name="preview" type="TextureRect" parent="Root/container/pixelate" unique_id=859764783]
 texture_filter = 1
 material = SubResource("24")
 custom_minimum_size = Vector2(60, 60)
@@ -3534,20 +3576,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="rotate" type="VBoxContainer" parent="container" unique_id=1919741005]
+[node name="rotate" type="VBoxContainer" parent="Root/container" unique_id=1919741005]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/rotate" unique_id=722421960]
+[node name="title" type="Label" parent="Root/container/rotate" unique_id=722421960]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Rotate UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/rotate" unique_id=1267779263]
+[node name="preview" type="TextureRect" parent="Root/container/rotate" unique_id=1267779263]
 texture_filter = 1
 material = SubResource("29")
 custom_minimum_size = Vector2(60, 60)
@@ -3557,20 +3599,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="scaleUV" type="VBoxContainer" parent="container" unique_id=1747052462]
+[node name="scaleUV" type="VBoxContainer" parent="Root/container" unique_id=1747052462]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/scaleUV" unique_id=488235934]
+[node name="title" type="Label" parent="Root/container/scaleUV" unique_id=488235934]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Scale UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/scaleUV" unique_id=450427190]
+[node name="preview" type="TextureRect" parent="Root/container/scaleUV" unique_id=450427190]
 texture_filter = 1
 material = SubResource("34")
 custom_minimum_size = Vector2(60, 60)
@@ -3580,20 +3622,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="sphericalUV" type="VBoxContainer" parent="container" unique_id=715406239]
+[node name="sphericalUV" type="VBoxContainer" parent="Root/container" unique_id=715406239]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/sphericalUV" unique_id=798380451]
+[node name="title" type="Label" parent="Root/container/sphericalUV" unique_id=798380451]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Spherical UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/sphericalUV" unique_id=1611597091]
+[node name="preview" type="TextureRect" parent="Root/container/sphericalUV" unique_id=1611597091]
 texture_filter = 1
 material = SubResource("41")
 custom_minimum_size = Vector2(60, 60)
@@ -3603,20 +3645,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="tileUV" type="VBoxContainer" parent="container" unique_id=1991391313]
+[node name="tileUV" type="VBoxContainer" parent="Root/container" unique_id=1991391313]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/tileUV" unique_id=2096878143]
+[node name="title" type="Label" parent="Root/container/tileUV" unique_id=2096878143]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Tile UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/tileUV" unique_id=733939669]
+[node name="preview" type="TextureRect" parent="Root/container/tileUV" unique_id=733939669]
 texture_filter = 1
 material = SubResource("47")
 custom_minimum_size = Vector2(60, 60)
@@ -3626,20 +3668,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="tilingNoffset" type="VBoxContainer" parent="container" unique_id=1078483446]
+[node name="tilingNoffset" type="VBoxContainer" parent="Root/container" unique_id=1078483446]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/tilingNoffset" unique_id=1698735271]
+[node name="title" type="Label" parent="Root/container/tilingNoffset" unique_id=1698735271]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Tiling & Offset UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/tilingNoffset" unique_id=610514832]
+[node name="preview" type="TextureRect" parent="Root/container/tilingNoffset" unique_id=610514832]
 texture_filter = 1
 material = SubResource("51")
 custom_minimum_size = Vector2(60, 60)
@@ -3649,20 +3691,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="transformUV" type="VBoxContainer" parent="container" unique_id=504064777]
+[node name="transformUV" type="VBoxContainer" parent="Root/container" unique_id=504064777]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/transformUV" unique_id=1127199533]
+[node name="title" type="Label" parent="Root/container/transformUV" unique_id=1127199533]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Transform3D UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/transformUV" unique_id=1925274208]
+[node name="preview" type="TextureRect" parent="Root/container/transformUV" unique_id=1925274208]
 texture_filter = 1
 material = SubResource("59")
 custom_minimum_size = Vector2(60, 60)
@@ -3672,20 +3714,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="twirl" type="VBoxContainer" parent="container" unique_id=553149423]
+[node name="twirl" type="VBoxContainer" parent="Root/container" unique_id=553149423]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/twirl" unique_id=354156895]
+[node name="title" type="Label" parent="Root/container/twirl" unique_id=354156895]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Twirl UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/twirl" unique_id=1048611458]
+[node name="preview" type="TextureRect" parent="Root/container/twirl" unique_id=1048611458]
 texture_filter = 1
 material = SubResource("64")
 custom_minimum_size = Vector2(60, 60)
@@ -3695,13 +3737,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="distortionUVAnimated" type="VBoxContainer" parent="container" unique_id=1169703344]
+[node name="distortionUVAnimated" type="VBoxContainer" parent="Root/container" unique_id=1169703344]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/distortionUVAnimated" unique_id=1855112111]
+[node name="title" type="Label" parent="Root/container/distortionUVAnimated" unique_id=1855112111]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3709,7 +3751,7 @@ text = "Distortion UV
 Animated"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/distortionUVAnimated" unique_id=200116312]
+[node name="preview" type="TextureRect" parent="Root/container/distortionUVAnimated" unique_id=200116312]
 texture_filter = 1
 material = SubResource("73")
 custom_minimum_size = Vector2(60, 60)
@@ -3719,20 +3761,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="doodleUV" type="VBoxContainer" parent="container" unique_id=1719723547]
+[node name="doodleUV" type="VBoxContainer" parent="Root/container" unique_id=1719723547]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/doodleUV" unique_id=926666794]
+[node name="title" type="Label" parent="Root/container/doodleUV" unique_id=926666794]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Doodle UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/doodleUV" unique_id=1050632295]
+[node name="preview" type="TextureRect" parent="Root/container/doodleUV" unique_id=1050632295]
 texture_filter = 1
 material = SubResource("81")
 custom_minimum_size = Vector2(60, 60)
@@ -3742,13 +3784,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="rotateAnimated" type="VBoxContainer" parent="container" unique_id=93239318]
+[node name="rotateAnimated" type="VBoxContainer" parent="Root/container" unique_id=93239318]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/rotateAnimated" unique_id=1950672237]
+[node name="title" type="Label" parent="Root/container/rotateAnimated" unique_id=1950672237]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3756,7 +3798,7 @@ text = "Rotate UV
 Animated"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/rotateAnimated" unique_id=1391276384]
+[node name="preview" type="TextureRect" parent="Root/container/rotateAnimated" unique_id=1391276384]
 texture_filter = 1
 material = SubResource("86")
 custom_minimum_size = Vector2(60, 60)
@@ -3766,20 +3808,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="swirlUV" type="VBoxContainer" parent="container" unique_id=939120139]
+[node name="swirlUV" type="VBoxContainer" parent="Root/container" unique_id=939120139]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/swirlUV" unique_id=2045359791]
+[node name="title" type="Label" parent="Root/container/swirlUV" unique_id=2045359791]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Swirl UV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/swirlUV" unique_id=1273255654]
+[node name="preview" type="TextureRect" parent="Root/container/swirlUV" unique_id=1273255654]
 texture_filter = 1
 material = SubResource("93")
 custom_minimum_size = Vector2(60, 60)
@@ -3789,13 +3831,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="tilingNoffsetAnimated" type="VBoxContainer" parent="container" unique_id=1025208580]
+[node name="tilingNoffsetAnimated" type="VBoxContainer" parent="Root/container" unique_id=1025208580]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/tilingNoffsetAnimated" unique_id=1998788131]
+[node name="title" type="Label" parent="Root/container/tilingNoffsetAnimated" unique_id=1998788131]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3803,7 +3845,7 @@ text = "Tiling & Offset UV
 Animated"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/tilingNoffsetAnimated" unique_id=1419285866]
+[node name="preview" type="TextureRect" parent="Root/container/tilingNoffsetAnimated" unique_id=1419285866]
 texture_filter = 1
 texture_repeat = 2
 material = SubResource("98")
@@ -3814,13 +3856,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="hash1d" type="VBoxContainer" parent="container" unique_id=407282244]
+[node name="hash1d" type="VBoxContainer" parent="Root/container" unique_id=407282244]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/hash1d" unique_id=1197988969]
+[node name="title" type="Label" parent="Root/container/hash1d" unique_id=1197988969]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3828,7 +3870,7 @@ text = "Hash 1D
 Random"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/hash1d" unique_id=1769170477]
+[node name="preview" type="TextureRect" parent="Root/container/hash1d" unique_id=1769170477]
 texture_filter = 1
 material = SubResource("101")
 custom_minimum_size = Vector2(60, 60)
@@ -3838,13 +3880,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="hash2d" type="VBoxContainer" parent="container" unique_id=331298586]
+[node name="hash2d" type="VBoxContainer" parent="Root/container" unique_id=331298586]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/hash2d" unique_id=86125783]
+[node name="title" type="Label" parent="Root/container/hash2d" unique_id=86125783]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3852,7 +3894,7 @@ text = "Hash 2D
 Random"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/hash2d" unique_id=1692065994]
+[node name="preview" type="TextureRect" parent="Root/container/hash2d" unique_id=1692065994]
 texture_filter = 1
 material = SubResource("104")
 custom_minimum_size = Vector2(60, 60)
@@ -3862,13 +3904,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="hash2dvector" type="VBoxContainer" parent="container" unique_id=554314212]
+[node name="hash2dvector" type="VBoxContainer" parent="Root/container" unique_id=554314212]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/hash2dvector" unique_id=1108530227]
+[node name="title" type="Label" parent="Root/container/hash2dvector" unique_id=1108530227]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3876,7 +3918,7 @@ text = "Hash Random
 Vector 2D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/hash2dvector" unique_id=1430907265]
+[node name="preview" type="TextureRect" parent="Root/container/hash2dvector" unique_id=1430907265]
 texture_filter = 1
 material = SubResource("107")
 custom_minimum_size = Vector2(60, 60)
@@ -3886,20 +3928,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="randomFloat" type="VBoxContainer" parent="container" unique_id=1934006383]
+[node name="randomFloat" type="VBoxContainer" parent="Root/container" unique_id=1934006383]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/randomFloat" unique_id=1657412571]
+[node name="title" type="Label" parent="Root/container/randomFloat" unique_id=1657412571]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Random Float"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/randomFloat" unique_id=146505162]
+[node name="preview" type="TextureRect" parent="Root/container/randomFloat" unique_id=146505162]
 texture_filter = 1
 material = SubResource("110")
 custom_minimum_size = Vector2(60, 60)
@@ -3909,13 +3951,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="randomFloat4D" type="VBoxContainer" parent="container" unique_id=1065953659]
+[node name="randomFloat4D" type="VBoxContainer" parent="Root/container" unique_id=1065953659]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/randomFloat4D" unique_id=641150399]
+[node name="title" type="Label" parent="Root/container/randomFloat4D" unique_id=641150399]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3923,7 +3965,7 @@ text = "Random Float
 (4D)"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/randomFloat4D" unique_id=135709196]
+[node name="preview" type="TextureRect" parent="Root/container/randomFloat4D" unique_id=135709196]
 texture_filter = 1
 material = SubResource("ShaderMaterial_xd8m2")
 custom_minimum_size = Vector2(60, 60)
@@ -3933,13 +3975,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="randomGoldNoiseFloat" type="VBoxContainer" parent="container" unique_id=841089274]
+[node name="randomGoldNoiseFloat" type="VBoxContainer" parent="Root/container" unique_id=841089274]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/randomGoldNoiseFloat" unique_id=1518901479]
+[node name="title" type="Label" parent="Root/container/randomGoldNoiseFloat" unique_id=1518901479]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -3947,7 +3989,7 @@ text = "Random Float
 (Gold Noise)"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/randomGoldNoiseFloat" unique_id=1895295592]
+[node name="preview" type="TextureRect" parent="Root/container/randomGoldNoiseFloat" unique_id=1895295592]
 texture_filter = 1
 material = SubResource("119")
 custom_minimum_size = Vector2(60, 60)
@@ -3957,20 +3999,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="remap" type="VBoxContainer" parent="container" unique_id=627535042]
+[node name="remap" type="VBoxContainer" parent="Root/container" unique_id=627535042]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/remap" unique_id=220270906]
+[node name="title" type="Label" parent="Root/container/remap" unique_id=220270906]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Remap Vector"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/remap" unique_id=1674992631]
+[node name="preview" type="TextureRect" parent="Root/container/remap" unique_id=1674992631]
 texture_filter = 1
 material = SubResource("127")
 custom_minimum_size = Vector2(60, 60)
@@ -3980,21 +4022,21 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="sinTime" type="VBoxContainer" parent="container" unique_id=1625777246]
+[node name="sinTime" type="VBoxContainer" parent="Root/container" unique_id=1625777246]
 texture_filter = 1
 material = SubResource("ShaderMaterial_bvkyk")
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/sinTime" unique_id=1835310920]
+[node name="title" type="Label" parent="Root/container/sinTime" unique_id=1835310920]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "SinTIME"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/sinTime" unique_id=1789857381]
+[node name="preview" type="TextureRect" parent="Root/container/sinTime" unique_id=1789857381]
 texture_filter = 1
 material = SubResource("132")
 custom_minimum_size = Vector2(60, 60)
@@ -4004,20 +4046,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="vec2Compose" type="VBoxContainer" parent="container" unique_id=820256632]
+[node name="vec2Compose" type="VBoxContainer" parent="Root/container" unique_id=820256632]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/vec2Compose" unique_id=1159109139]
+[node name="title" type="Label" parent="Root/container/vec2Compose" unique_id=1159109139]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Vector2 Compose"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/vec2Compose" unique_id=1937231716]
+[node name="preview" type="TextureRect" parent="Root/container/vec2Compose" unique_id=1937231716]
 texture_filter = 1
 material = SubResource("137")
 custom_minimum_size = Vector2(60, 60)
@@ -4027,20 +4069,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="blur9sample" type="VBoxContainer" parent="container" unique_id=1966312076]
+[node name="blur9sample" type="VBoxContainer" parent="Root/container" unique_id=1966312076]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/blur9sample" unique_id=1822301322]
+[node name="title" type="Label" parent="Root/container/blur9sample" unique_id=1822301322]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Basic Blur"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/blur9sample" unique_id=912030455]
+[node name="preview" type="TextureRect" parent="Root/container/blur9sample" unique_id=912030455]
 texture_filter = 1
 material = SubResource("144")
 custom_minimum_size = Vector2(60, 60)
@@ -4050,20 +4092,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="blurCustom" type="VBoxContainer" parent="container" unique_id=1935606667]
+[node name="blurCustom" type="VBoxContainer" parent="Root/container" unique_id=1935606667]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/blurCustom" unique_id=1527168163]
+[node name="title" type="Label" parent="Root/container/blurCustom" unique_id=1527168163]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Blur Custom"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/blurCustom" unique_id=1697157450]
+[node name="preview" type="TextureRect" parent="Root/container/blurCustom" unique_id=1697157450]
 texture_filter = 1
 material = SubResource("150")
 custom_minimum_size = Vector2(60, 60)
@@ -4073,20 +4115,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="zoomBlur" type="VBoxContainer" parent="container" unique_id=608597114]
+[node name="zoomBlur" type="VBoxContainer" parent="Root/container" unique_id=608597114]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/zoomBlur" unique_id=1468497444]
+[node name="title" type="Label" parent="Root/container/zoomBlur" unique_id=1468497444]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Zoom Blur"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/zoomBlur" unique_id=2108593920]
+[node name="preview" type="TextureRect" parent="Root/container/zoomBlur" unique_id=2108593920]
 texture_filter = 1
 material = SubResource("158")
 custom_minimum_size = Vector2(60, 60)
@@ -4096,20 +4138,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="glowEmpty" type="VBoxContainer" parent="container" unique_id=258964527]
+[node name="glowEmpty" type="VBoxContainer" parent="Root/container" unique_id=258964527]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/glowEmpty" unique_id=1173280291]
+[node name="title" type="Label" parent="Root/container/glowEmpty" unique_id=1173280291]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Glow Empty"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/glowEmpty" unique_id=25687093]
+[node name="preview" type="TextureRect" parent="Root/container/glowEmpty" unique_id=25687093]
 texture_filter = 1
 material = SubResource("166")
 custom_minimum_size = Vector2(60, 60)
@@ -4119,20 +4161,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="innerGlow" type="VBoxContainer" parent="container" unique_id=322310056]
+[node name="innerGlow" type="VBoxContainer" parent="Root/container" unique_id=322310056]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/innerGlow" unique_id=565714154]
+[node name="title" type="Label" parent="Root/container/innerGlow" unique_id=565714154]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Inner Glow"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/innerGlow" unique_id=664126174]
+[node name="preview" type="TextureRect" parent="Root/container/innerGlow" unique_id=664126174]
 texture_filter = 1
 material = SubResource("172")
 custom_minimum_size = Vector2(60, 60)
@@ -4142,13 +4184,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="innerGlowEmpty" type="VBoxContainer" parent="container" unique_id=290320135]
+[node name="innerGlowEmpty" type="VBoxContainer" parent="Root/container" unique_id=290320135]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/innerGlowEmpty" unique_id=1333135477]
+[node name="title" type="Label" parent="Root/container/innerGlowEmpty" unique_id=1333135477]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4156,7 +4198,7 @@ text = "Inner Glow
 Empty"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/innerGlowEmpty" unique_id=1842137832]
+[node name="preview" type="TextureRect" parent="Root/container/innerGlowEmpty" unique_id=1842137832]
 texture_filter = 1
 material = SubResource("181")
 custom_minimum_size = Vector2(60, 60)
@@ -4166,20 +4208,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="outerGlow" type="VBoxContainer" parent="container" unique_id=661322676]
+[node name="outerGlow" type="VBoxContainer" parent="Root/container" unique_id=661322676]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/outerGlow" unique_id=1720369163]
+[node name="title" type="Label" parent="Root/container/outerGlow" unique_id=1720369163]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Outer Glow"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/outerGlow" unique_id=1792571948]
+[node name="preview" type="TextureRect" parent="Root/container/outerGlow" unique_id=1792571948]
 texture_filter = 1
 material = SubResource("188")
 custom_minimum_size = Vector2(60, 60)
@@ -4189,13 +4231,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="outerGlowEmpty" type="VBoxContainer" parent="container" unique_id=2055896353]
+[node name="outerGlowEmpty" type="VBoxContainer" parent="Root/container" unique_id=2055896353]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/outerGlowEmpty" unique_id=143172803]
+[node name="title" type="Label" parent="Root/container/outerGlowEmpty" unique_id=143172803]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4203,7 +4245,7 @@ text = "Outer Glow
 Empty"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/outerGlowEmpty" unique_id=978063908]
+[node name="preview" type="TextureRect" parent="Root/container/outerGlowEmpty" unique_id=978063908]
 texture_filter = 1
 material = SubResource("195")
 custom_minimum_size = Vector2(60, 60)
@@ -4213,13 +4255,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="checkerboardPattern" type="VBoxContainer" parent="container" unique_id=1411566265]
+[node name="checkerboardPattern" type="VBoxContainer" parent="Root/container" unique_id=1411566265]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/checkerboardPattern" unique_id=1549271393]
+[node name="title" type="Label" parent="Root/container/checkerboardPattern" unique_id=1549271393]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4227,7 +4269,7 @@ text = "Chekerboard
 Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/checkerboardPattern" unique_id=1495582287]
+[node name="preview" type="TextureRect" parent="Root/container/checkerboardPattern" unique_id=1495582287]
 texture_filter = 1
 material = SubResource("200")
 custom_minimum_size = Vector2(60, 60)
@@ -4237,20 +4279,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="generateCircle" type="VBoxContainer" parent="container" unique_id=1208834465]
+[node name="generateCircle" type="VBoxContainer" parent="Root/container" unique_id=1208834465]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/generateCircle" unique_id=335552857]
+[node name="title" type="Label" parent="Root/container/generateCircle" unique_id=335552857]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Circle Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/generateCircle" unique_id=909419195]
+[node name="preview" type="TextureRect" parent="Root/container/generateCircle" unique_id=909419195]
 texture_filter = 1
 material = SubResource("218")
 custom_minimum_size = Vector2(60, 60)
@@ -4260,20 +4302,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="generateCircle2" type="VBoxContainer" parent="container" unique_id=150813142]
+[node name="generateCircle2" type="VBoxContainer" parent="Root/container" unique_id=150813142]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/generateCircle2" unique_id=1217903361]
+[node name="title" type="Label" parent="Root/container/generateCircle2" unique_id=1217903361]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Circle Shape3D 2"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/generateCircle2" unique_id=1508608732]
+[node name="preview" type="TextureRect" parent="Root/container/generateCircle2" unique_id=1508608732]
 texture_filter = 1
 material = SubResource("209")
 custom_minimum_size = Vector2(60, 60)
@@ -4283,13 +4325,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="regulatNgon" type="VBoxContainer" parent="container" unique_id=1768486629]
+[node name="regulatNgon" type="VBoxContainer" parent="Root/container" unique_id=1768486629]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/regulatNgon" unique_id=2146530715]
+[node name="title" type="Label" parent="Root/container/regulatNgon" unique_id=2146530715]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4297,7 +4339,7 @@ text = "Regular Ngon
 Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/regulatNgon" unique_id=1165977985]
+[node name="preview" type="TextureRect" parent="Root/container/regulatNgon" unique_id=1165977985]
 texture_filter = 1
 material = SubResource("233")
 custom_minimum_size = Vector2(60, 60)
@@ -4307,20 +4349,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="generateSpiral" type="VBoxContainer" parent="container" unique_id=808382646]
+[node name="generateSpiral" type="VBoxContainer" parent="Root/container" unique_id=808382646]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/generateSpiral" unique_id=1257493090]
+[node name="title" type="Label" parent="Root/container/generateSpiral" unique_id=1257493090]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Spiral Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/generateSpiral" unique_id=1945813454]
+[node name="preview" type="TextureRect" parent="Root/container/generateSpiral" unique_id=1945813454]
 texture_filter = 1
 material = SubResource("243")
 custom_minimum_size = Vector2(60, 60)
@@ -4330,13 +4372,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="scanLinesSharp" type="VBoxContainer" parent="container" unique_id=442099274]
+[node name="scanLinesSharp" type="VBoxContainer" parent="Root/container" unique_id=442099274]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/scanLinesSharp" unique_id=1640247116]
+[node name="title" type="Label" parent="Root/container/scanLinesSharp" unique_id=1640247116]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4344,7 +4386,7 @@ text = "Scanlines
 Sharp Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/scanLinesSharp" unique_id=2043401740]
+[node name="preview" type="TextureRect" parent="Root/container/scanLinesSharp" unique_id=2043401740]
 texture_filter = 1
 material = SubResource("252")
 custom_minimum_size = Vector2(60, 60)
@@ -4354,13 +4396,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="stripesRandom" type="VBoxContainer" parent="container" unique_id=2022800053]
+[node name="stripesRandom" type="VBoxContainer" parent="Root/container" unique_id=2022800053]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/stripesRandom" unique_id=1687446338]
+[node name="title" type="Label" parent="Root/container/stripesRandom" unique_id=1687446338]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4368,7 +4410,7 @@ text = "Random
 Stripes Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/stripesRandom" unique_id=996101153]
+[node name="preview" type="TextureRect" parent="Root/container/stripesRandom" unique_id=996101153]
 texture_filter = 1
 material = SubResource("258")
 custom_minimum_size = Vector2(60, 60)
@@ -4378,307 +4420,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="generic2d" type="VBoxContainer" parent="container" unique_id=1738438500]
+[node name="BCSAdjustment" type="VBoxContainer" parent="Root/container" unique_id=372942795]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/generic2d" unique_id=2067430330]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Generic 2D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/generic2d" unique_id=457694933]
-texture_filter = 1
-material = SubResource("263")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin2d" type="VBoxContainer" parent="container" unique_id=357797457]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin2d" unique_id=131384617]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Perlin 2D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin2d" unique_id=97320698]
-texture_filter = 1
-material = SubResource("269")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin3d" type="VBoxContainer" parent="container" unique_id=490464990]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin3d" unique_id=309679441]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Perlin 3D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin3d" unique_id=520808169]
-texture_filter = 1
-material = SubResource("275")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlinPeriodic3d" type="VBoxContainer" parent="container" unique_id=1986904536]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlinPeriodic3d" unique_id=969500680]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Perlin 3D
-Periodic Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlinPeriodic3d" unique_id=30253031]
-texture_filter = 1
-material = SubResource("281")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin4d" type="VBoxContainer" parent="container" unique_id=891463212]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin4d" unique_id=1367606127]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Perlin 4D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin4d" unique_id=2133129340]
-texture_filter = 1
-material = SubResource("287")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="simplex2d" type="VBoxContainer" parent="container" unique_id=997520646]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex2d" unique_id=525947694]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Simplex 2D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex2d" unique_id=1998453483]
-texture_filter = 1
-material = SubResource("293")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="simplex3d" type="VBoxContainer" parent="container" unique_id=549473657]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex3d" unique_id=1232730769]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Simplex 3D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex3d" unique_id=1525846202]
-texture_filter = 1
-material = SubResource("299")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-stretch_mode = 5
-
-[node name="simplex4d" type="VBoxContainer" parent="container" unique_id=451032816]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex4d" unique_id=1752858214]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Simplex 4D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex4d" unique_id=2081518424]
-texture_filter = 1
-material = SubResource("305")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley2d" type="VBoxContainer" parent="container" unique_id=481424284]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley2d" unique_id=721018485]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Worley 2D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley2d" unique_id=1046028507]
-texture_filter = 1
-material = SubResource("311")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley2x2" type="VBoxContainer" parent="container" unique_id=977514808]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley2x2" unique_id=2095896802]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Worley 2x2
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley2x2" unique_id=2000749083]
-texture_filter = 1
-material = SubResource("317")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley2x2x2" type="VBoxContainer" parent="container" unique_id=850038215]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley2x2x2" unique_id=1535268198]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Worley 2x2x2
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley2x2x2" unique_id=1276628208]
-texture_filter = 1
-material = SubResource("324")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley3d" type="VBoxContainer" parent="container" unique_id=572702115]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley3d" unique_id=523017038]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Worley 3D
-Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley3d" unique_id=497273942]
-texture_filter = 1
-material = SubResource("330")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="BCSAdjustment" type="VBoxContainer" parent="container" unique_id=372942795]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/BCSAdjustment" unique_id=856391230]
+[node name="title" type="Label" parent="Root/container/BCSAdjustment" unique_id=856391230]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "BCS Adjustment"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/BCSAdjustment" unique_id=979264558]
+[node name="preview" type="TextureRect" parent="Root/container/BCSAdjustment" unique_id=979264558]
 texture_filter = 1
 material = SubResource("337")
 custom_minimum_size = Vector2(60, 60)
@@ -4688,20 +4443,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="blackAndWhite" type="VBoxContainer" parent="container" unique_id=908480461]
+[node name="blackAndWhite" type="VBoxContainer" parent="Root/container" unique_id=908480461]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/blackAndWhite" unique_id=2060597750]
+[node name="title" type="Label" parent="Root/container/blackAndWhite" unique_id=2060597750]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Black & White"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/blackAndWhite" unique_id=1612509753]
+[node name="preview" type="TextureRect" parent="Root/container/blackAndWhite" unique_id=1612509753]
 texture_filter = 1
 material = SubResource("341")
 custom_minimum_size = Vector2(60, 60)
@@ -4711,20 +4466,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="blendAwithB" type="VBoxContainer" parent="container" unique_id=779693578]
+[node name="blendAwithB" type="VBoxContainer" parent="Root/container" unique_id=779693578]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/blendAwithB" unique_id=1671095126]
+[node name="title" type="Label" parent="Root/container/blendAwithB" unique_id=1671095126]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Blend A with B"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/blendAwithB" unique_id=636877240]
+[node name="preview" type="TextureRect" parent="Root/container/blendAwithB" unique_id=636877240]
 texture_filter = 1
 material = SubResource("346")
 custom_minimum_size = Vector2(60, 60)
@@ -4734,20 +4489,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="bloom" type="VBoxContainer" parent="container" unique_id=1814277601]
+[node name="bloom" type="VBoxContainer" parent="Root/container" unique_id=1814277601]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/bloom" unique_id=1155667345]
+[node name="title" type="Label" parent="Root/container/bloom" unique_id=1155667345]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Bloom"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/bloom" unique_id=1795338770]
+[node name="preview" type="TextureRect" parent="Root/container/bloom" unique_id=1795338770]
 texture_filter = 1
 material = SubResource("350")
 custom_minimum_size = Vector2(60, 60)
@@ -4757,13 +4512,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="chromaticAberration" type="VBoxContainer" parent="container" unique_id=2014020047]
+[node name="chromaticAberration" type="VBoxContainer" parent="Root/container" unique_id=2014020047]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/chromaticAberration" unique_id=912062788]
+[node name="title" type="Label" parent="Root/container/chromaticAberration" unique_id=912062788]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4771,7 +4526,7 @@ text = "Chromatic
 Aberration"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/chromaticAberration" unique_id=669045918]
+[node name="preview" type="TextureRect" parent="Root/container/chromaticAberration" unique_id=669045918]
 texture_filter = 1
 material = SubResource("358")
 custom_minimum_size = Vector2(60, 60)
@@ -4781,13 +4536,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="clamp" type="VBoxContainer" parent="container" unique_id=597670458]
+[node name="clamp" type="VBoxContainer" parent="Root/container" unique_id=597670458]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/clamp" unique_id=461540871]
+[node name="title" type="Label" parent="Root/container/clamp" unique_id=461540871]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4795,7 +4550,7 @@ text = "Clamp Alpha
 Border"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/clamp" unique_id=2012610045]
+[node name="preview" type="TextureRect" parent="Root/container/clamp" unique_id=2012610045]
 texture_filter = 1
 material = SubResource("367")
 custom_minimum_size = Vector2(60, 60)
@@ -4805,13 +4560,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="colorCorrectionAdjustment" type="VBoxContainer" parent="container" unique_id=148918727]
+[node name="colorCorrectionAdjustment" type="VBoxContainer" parent="Root/container" unique_id=148918727]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/colorCorrectionAdjustment" unique_id=443121660]
+[node name="title" type="Label" parent="Root/container/colorCorrectionAdjustment" unique_id=443121660]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4819,7 +4574,7 @@ text = "Color Correction
 Adjustment"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/colorCorrectionAdjustment" unique_id=1479602461]
+[node name="preview" type="TextureRect" parent="Root/container/colorCorrectionAdjustment" unique_id=1479602461]
 texture_filter = 1
 material = SubResource("372")
 custom_minimum_size = Vector2(60, 60)
@@ -4828,20 +4583,20 @@ size_flags_horizontal = 4
 texture = ExtResource("1")
 stretch_mode = 6
 
-[node name="emboss" type="VBoxContainer" parent="container" unique_id=489778598]
+[node name="emboss" type="VBoxContainer" parent="Root/container" unique_id=489778598]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/emboss" unique_id=359885085]
+[node name="title" type="Label" parent="Root/container/emboss" unique_id=359885085]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Emboss"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/emboss" unique_id=885188777]
+[node name="preview" type="TextureRect" parent="Root/container/emboss" unique_id=885188777]
 texture_filter = 1
 material = SubResource("379")
 custom_minimum_size = Vector2(60, 60)
@@ -4851,20 +4606,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="fireFX" type="VBoxContainer" parent="container" unique_id=1106024222]
+[node name="fireFX" type="VBoxContainer" parent="Root/container" unique_id=1106024222]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/fireFX" unique_id=1372576573]
+[node name="title" type="Label" parent="Root/container/fireFX" unique_id=1372576573]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "FireFX"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/fireFX" unique_id=1914901494]
+[node name="preview" type="TextureRect" parent="Root/container/fireFX" unique_id=1914901494]
 texture_filter = 1
 material = SubResource("393")
 custom_minimum_size = Vector2(60, 60)
@@ -4874,13 +4629,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="gradient4corners" type="VBoxContainer" parent="container" unique_id=1018417284]
+[node name="gradient4corners" type="VBoxContainer" parent="Root/container" unique_id=1018417284]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/gradient4corners" unique_id=1091801836]
+[node name="title" type="Label" parent="Root/container/gradient4corners" unique_id=1091801836]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4888,7 +4643,7 @@ text = "Gradient
 4-Corners"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/gradient4corners" unique_id=175394700]
+[node name="preview" type="TextureRect" parent="Root/container/gradient4corners" unique_id=175394700]
 texture_filter = 1
 material = SubResource("400")
 custom_minimum_size = Vector2(60, 60)
@@ -4898,13 +4653,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="gradientMapping" type="VBoxContainer" parent="container" unique_id=361505092]
+[node name="gradientMapping" type="VBoxContainer" parent="Root/container" unique_id=361505092]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/gradientMapping" unique_id=597186565]
+[node name="title" type="Label" parent="Root/container/gradientMapping" unique_id=597186565]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -4912,7 +4667,7 @@ text = "Gradient Mapping
 (+ColorCycling Support)"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/gradientMapping" unique_id=213057374]
+[node name="preview" type="TextureRect" parent="Root/container/gradientMapping" unique_id=213057374]
 texture_filter = 1
 material = SubResource("410")
 custom_minimum_size = Vector2(60, 60)
@@ -4922,20 +4677,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="grayscale" type="VBoxContainer" parent="container" unique_id=459079946]
+[node name="grayscale" type="VBoxContainer" parent="Root/container" unique_id=459079946]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/grayscale" unique_id=2033333772]
+[node name="title" type="Label" parent="Root/container/grayscale" unique_id=2033333772]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Grayscale+"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/grayscale" unique_id=1788462320]
+[node name="preview" type="TextureRect" parent="Root/container/grayscale" unique_id=1788462320]
 texture_filter = 1
 material = SubResource("415")
 custom_minimum_size = Vector2(60, 60)
@@ -4945,20 +4700,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="hue" type="VBoxContainer" parent="container" unique_id=1973497583]
+[node name="hue" type="VBoxContainer" parent="Root/container" unique_id=1973497583]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/hue" unique_id=33490451]
+[node name="title" type="Label" parent="Root/container/hue" unique_id=33490451]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Hue"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/hue" unique_id=1359844543]
+[node name="preview" type="TextureRect" parent="Root/container/hue" unique_id=1359844543]
 texture_filter = 1
 material = SubResource("418")
 custom_minimum_size = Vector2(60, 60)
@@ -4968,20 +4723,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="inverseColor" type="VBoxContainer" parent="container" unique_id=451206477]
+[node name="inverseColor" type="VBoxContainer" parent="Root/container" unique_id=451206477]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/inverseColor" unique_id=750516712]
+[node name="title" type="Label" parent="Root/container/inverseColor" unique_id=750516712]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Inverse Color"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/inverseColor" unique_id=1736352191]
+[node name="preview" type="TextureRect" parent="Root/container/inverseColor" unique_id=1736352191]
 texture_filter = 1
 material = SubResource("422")
 custom_minimum_size = Vector2(60, 60)
@@ -4991,20 +4746,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="maskAlpha" type="VBoxContainer" parent="container" unique_id=1648601088]
+[node name="maskAlpha" type="VBoxContainer" parent="Root/container" unique_id=1648601088]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/maskAlpha" unique_id=719070486]
+[node name="title" type="Label" parent="Root/container/maskAlpha" unique_id=719070486]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Mask Alpha"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/maskAlpha" unique_id=1428502843]
+[node name="preview" type="TextureRect" parent="Root/container/maskAlpha" unique_id=1428502843]
 texture_filter = 1
 material = SubResource("426")
 custom_minimum_size = Vector2(60, 60)
@@ -5014,20 +4769,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="posterize" type="VBoxContainer" parent="container" unique_id=2074703800]
+[node name="posterize" type="VBoxContainer" parent="Root/container" unique_id=2074703800]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/posterize" unique_id=341275396]
+[node name="title" type="Label" parent="Root/container/posterize" unique_id=341275396]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Posterize"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/posterize" unique_id=1021515091]
+[node name="preview" type="TextureRect" parent="Root/container/posterize" unique_id=1021515091]
 texture_filter = 1
 material = SubResource("430")
 custom_minimum_size = Vector2(60, 60)
@@ -5037,20 +4792,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="shiftHSV" type="VBoxContainer" parent="container" unique_id=1824128288]
+[node name="shiftHSV" type="VBoxContainer" parent="Root/container" unique_id=1824128288]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/shiftHSV" unique_id=86040363]
+[node name="title" type="Label" parent="Root/container/shiftHSV" unique_id=86040363]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Shift HSV"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/shiftHSV" unique_id=1781930981]
+[node name="preview" type="TextureRect" parent="Root/container/shiftHSV" unique_id=1781930981]
 texture_filter = 1
 material = SubResource("436")
 custom_minimum_size = Vector2(60, 60)
@@ -5060,20 +4815,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="shineFX" type="VBoxContainer" parent="container" unique_id=964683344]
+[node name="shineFX" type="VBoxContainer" parent="Root/container" unique_id=964683344]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/shineFX" unique_id=1266374751]
+[node name="title" type="Label" parent="Root/container/shineFX" unique_id=1266374751]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Shine FX"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/shineFX" unique_id=835452126]
+[node name="preview" type="TextureRect" parent="Root/container/shineFX" unique_id=835452126]
 texture_filter = 1
 material = SubResource("447")
 custom_minimum_size = Vector2(60, 60)
@@ -5083,20 +4838,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="tintRGBA" type="VBoxContainer" parent="container" unique_id=160696259]
+[node name="tintRGBA" type="VBoxContainer" parent="Root/container" unique_id=160696259]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/tintRGBA" unique_id=2086042557]
+[node name="title" type="Label" parent="Root/container/tintRGBA" unique_id=2086042557]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Tint RGBA"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/tintRGBA" unique_id=1430495437]
+[node name="preview" type="TextureRect" parent="Root/container/tintRGBA" unique_id=1430495437]
 texture_filter = 1
 material = SubResource("451")
 custom_minimum_size = Vector2(60, 60)
@@ -5106,20 +4861,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="tonemap" type="VBoxContainer" parent="container" unique_id=1772433328]
+[node name="tonemap" type="VBoxContainer" parent="Root/container" unique_id=1772433328]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/tonemap" unique_id=120047221]
+[node name="title" type="Label" parent="Root/container/tonemap" unique_id=120047221]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Tonemap"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/tonemap" unique_id=1949981304]
+[node name="preview" type="TextureRect" parent="Root/container/tonemap" unique_id=1949981304]
 texture_filter = 1
 material = SubResource("456")
 custom_minimum_size = Vector2(60, 60)
@@ -5129,20 +4884,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="turnCGA4Palette" type="VBoxContainer" parent="container" unique_id=779941060]
+[node name="turnCGA4Palette" type="VBoxContainer" parent="Root/container" unique_id=779941060]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/turnCGA4Palette" unique_id=2094949923]
+[node name="title" type="Label" parent="Root/container/turnCGA4Palette" unique_id=2094949923]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "CGA4 Pallete"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/turnCGA4Palette" unique_id=359133080]
+[node name="preview" type="TextureRect" parent="Root/container/turnCGA4Palette" unique_id=359133080]
 texture_filter = 1
 material = SubResource("460")
 custom_minimum_size = Vector2(60, 60)
@@ -5152,13 +4907,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="turnGBPalette" type="VBoxContainer" parent="container" unique_id=1918268004]
+[node name="turnGBPalette" type="VBoxContainer" parent="Root/container" unique_id=1918268004]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/turnGBPalette" unique_id=953341789]
+[node name="title" type="Label" parent="Root/container/turnGBPalette" unique_id=953341789]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -5166,7 +4921,7 @@ text = "GameBoy
 Pallete"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/turnGBPalette" unique_id=560005328]
+[node name="preview" type="TextureRect" parent="Root/container/turnGBPalette" unique_id=560005328]
 texture_filter = 1
 material = SubResource("464")
 custom_minimum_size = Vector2(60, 60)
@@ -5176,229 +4931,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="generic2d_fractal" type="VBoxContainer" parent="container" unique_id=1927178433]
+[node name="normalFromHeightmap" type="VBoxContainer" parent="Root/container" unique_id=2104761338]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/generic2d_fractal" unique_id=774378043]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Generic2D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/generic2d_fractal" unique_id=567079122]
-texture_filter = 1
-material = SubResource("475")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin2d_fractal" type="VBoxContainer" parent="container" unique_id=1219922546]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin2d_fractal" unique_id=1792050550]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Perlin2D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin2d_fractal" unique_id=1411586162]
-texture_filter = 1
-material = SubResource("485")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley2d_fractal" type="VBoxContainer" parent="container" unique_id=1768547121]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley2d_fractal" unique_id=1525447580]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Worley2D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley2d_fractal" unique_id=436730087]
-texture_filter = 1
-material = SubResource("498")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="simplex2d_fractal" type="VBoxContainer" parent="container" unique_id=1300153125]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex2d_fractal" unique_id=1324194589]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Simplex2D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex2d_fractal" unique_id=566710222]
-texture_filter = 1
-material = SubResource("509")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="worley3d_fractal" type="VBoxContainer" parent="container" unique_id=1442357097]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/worley3d_fractal" unique_id=1498924902]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Worley3D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/worley3d_fractal" unique_id=269432333]
-texture_filter = 1
-material = SubResource("523")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin3d_fractal" type="VBoxContainer" parent="container" unique_id=1429656483]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin3d_fractal" unique_id=568494596]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Perlin3D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin3d_fractal" unique_id=1686325876]
-texture_filter = 1
-material = SubResource("535")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="simplex3d_fractal" type="VBoxContainer" parent="container" unique_id=1807964325]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex3d_fractal" unique_id=1670112820]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Simplex3D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex3d_fractal" unique_id=1585930821]
-texture_filter = 1
-material = SubResource("547")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="perlin4d_fractal" type="VBoxContainer" parent="container" unique_id=298432731]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/perlin4d_fractal" unique_id=775085665]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Perlin4D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/perlin4d_fractal" unique_id=1131534590]
-texture_filter = 1
-material = SubResource("560")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 1
-stretch_mode = 6
-
-[node name="simplex4d_fractal" type="VBoxContainer" parent="container" unique_id=210547522]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/simplex4d_fractal" unique_id=506670356]
-texture_filter = 1
-custom_minimum_size = Vector2(70, 0)
-layout_mode = 2
-text = "Fractal
-Simplex4D Noise"
-horizontal_alignment = 1
-
-[node name="preview" type="TextureRect" parent="container/simplex4d_fractal" unique_id=947383402]
-texture_filter = 1
-material = SubResource("573")
-custom_minimum_size = Vector2(60, 60)
-layout_mode = 2
-size_flags_horizontal = 4
-texture = ExtResource("1")
-expand_mode = 4
-stretch_mode = 6
-
-[node name="normalFromHeightmap" type="VBoxContainer" parent="container" unique_id=2104761338]
-texture_filter = 1
-custom_minimum_size = Vector2(120, 95)
-layout_mode = 2
-alignment = 1
-
-[node name="title" type="Label" parent="container/normalFromHeightmap" unique_id=2017996427]
+[node name="title" type="Label" parent="Root/container/normalFromHeightmap" unique_id=2017996427]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -5406,7 +4945,7 @@ text = "Normal From
 Heightmap"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/normalFromHeightmap" unique_id=1988497091]
+[node name="preview" type="TextureRect" parent="Root/container/normalFromHeightmap" unique_id=1988497091]
 texture_filter = 1
 material = SubResource("583")
 custom_minimum_size = Vector2(60, 60)
@@ -5416,13 +4955,13 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="coordsTransformation" type="VBoxContainer" parent="container" unique_id=1328070583]
+[node name="coordsTransformation" type="VBoxContainer" parent="Root/container" unique_id=1328070583]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/coordsTransformation" unique_id=1320141612]
+[node name="title" type="Label" parent="Root/container/coordsTransformation" unique_id=1320141612]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
@@ -5431,7 +4970,7 @@ Polar/Spherical
 and back to Cartesian"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/coordsTransformation" unique_id=266415198]
+[node name="preview" type="TextureRect" parent="Root/container/coordsTransformation" unique_id=266415198]
 texture_filter = 1
 material = SubResource("590")
 custom_minimum_size = Vector2(60, 60)
@@ -5441,20 +4980,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="gridShape" type="VBoxContainer" parent="container" unique_id=691898777]
+[node name="gridShape" type="VBoxContainer" parent="Root/container" unique_id=691898777]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/gridShape" unique_id=1287097820]
+[node name="title" type="Label" parent="Root/container/gridShape" unique_id=1287097820]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Grid Shape3D"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/gridShape" unique_id=1029468219]
+[node name="preview" type="TextureRect" parent="Root/container/gridShape" unique_id=1029468219]
 texture_filter = 1
 material = SubResource("599")
 custom_minimum_size = Vector2(60, 60)
@@ -5464,20 +5003,20 @@ texture = ExtResource("1")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="sobelEdge" type="VBoxContainer" parent="container" unique_id=218056441]
+[node name="sobelEdge" type="VBoxContainer" parent="Root/container" unique_id=218056441]
 texture_filter = 1
 custom_minimum_size = Vector2(120, 95)
 layout_mode = 2
 alignment = 1
 
-[node name="title" type="Label" parent="container/sobelEdge" unique_id=1996739049]
+[node name="title" type="Label" parent="Root/container/sobelEdge" unique_id=1996739049]
 texture_filter = 1
 custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
 text = "Sobel Edge"
 horizontal_alignment = 1
 
-[node name="preview" type="TextureRect" parent="container/sobelEdge" unique_id=526054335]
+[node name="preview" type="TextureRect" parent="Root/container/sobelEdge" unique_id=526054335]
 texture_filter = 1
 material = SubResource("608")
 custom_minimum_size = Vector2(60, 60)
@@ -5485,4 +5024,507 @@ layout_mode = 2
 size_flags_horizontal = 4
 texture = ExtResource("1")
 expand_mode = 1
+stretch_mode = 6
+
+[node name="generic2d" type="VBoxContainer" parent="Root/container" unique_id=1738438500]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/generic2d" unique_id=2067430330]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Generic 2D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/generic2d" unique_id=457694933]
+texture_filter = 1
+material = SubResource("263")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin2d" type="VBoxContainer" parent="Root/container" unique_id=357797457]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin2d" unique_id=131384617]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Perlin 2D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin2d" unique_id=97320698]
+texture_filter = 1
+material = SubResource("269")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin4d" type="VBoxContainer" parent="Root/container" unique_id=891463212]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin4d" unique_id=1367606127]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Perlin 4D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin4d" unique_id=2133129340]
+texture_filter = 1
+material = SubResource("287")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="simplex2d" type="VBoxContainer" parent="Root/container" unique_id=997520646]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex2d" unique_id=525947694]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Simplex 2D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex2d" unique_id=1998453483]
+texture_filter = 1
+material = SubResource("293")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin3d" type="VBoxContainer" parent="Root/container" unique_id=490464990]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin3d" unique_id=309679441]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Perlin 3D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin3d" unique_id=520808169]
+texture_filter = 1
+material = SubResource("275")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlinPeriodic3d" type="VBoxContainer" parent="Root/container" unique_id=1986904536]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlinPeriodic3d" unique_id=969500680]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Perlin 3D
+Periodic Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlinPeriodic3d" unique_id=30253031]
+texture_filter = 1
+material = SubResource("281")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="simplex3d" type="VBoxContainer" parent="Root/container" unique_id=549473657]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex3d" unique_id=1232730769]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Simplex 3D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex3d" unique_id=1525846202]
+texture_filter = 1
+material = SubResource("299")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+stretch_mode = 5
+
+[node name="simplex4d" type="VBoxContainer" parent="Root/container" unique_id=451032816]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex4d" unique_id=1752858214]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Simplex 4D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex4d" unique_id=2081518424]
+texture_filter = 1
+material = SubResource("305")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley2d" type="VBoxContainer" parent="Root/container" unique_id=481424284]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley2d" unique_id=721018485]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Worley 2D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley2d" unique_id=1046028507]
+texture_filter = 1
+material = SubResource("311")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley2x2" type="VBoxContainer" parent="Root/container" unique_id=977514808]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley2x2" unique_id=2095896802]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Worley 2x2
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley2x2" unique_id=2000749083]
+texture_filter = 1
+material = SubResource("317")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley2x2x2" type="VBoxContainer" parent="Root/container" unique_id=850038215]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley2x2x2" unique_id=1535268198]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Worley 2x2x2
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley2x2x2" unique_id=1276628208]
+texture_filter = 1
+material = SubResource("324")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley3d" type="VBoxContainer" parent="Root/container" unique_id=572702115]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley3d" unique_id=523017038]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Worley 3D
+Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley3d" unique_id=497273942]
+texture_filter = 1
+material = SubResource("330")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="generic2d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1927178433]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/generic2d_fractal" unique_id=774378043]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Generic2D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/generic2d_fractal" unique_id=567079122]
+texture_filter = 1
+material = SubResource("475")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin2d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1219922546]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin2d_fractal" unique_id=1792050550]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Perlin2D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin2d_fractal" unique_id=1411586162]
+texture_filter = 1
+material = SubResource("485")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley2d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1768547121]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley2d_fractal" unique_id=1525447580]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Worley2D Nois"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley2d_fractal" unique_id=436730087]
+texture_filter = 1
+material = SubResource("498")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="simplex2d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1300153125]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex2d_fractal" unique_id=1324194589]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Simplex2D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex2d_fractal" unique_id=566710222]
+texture_filter = 1
+material = SubResource("509")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="worley3d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1442357097]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/worley3d_fractal" unique_id=1498924902]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Worley3D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/worley3d_fractal" unique_id=269432333]
+texture_filter = 1
+material = SubResource("523")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin3d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1429656483]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin3d_fractal" unique_id=568494596]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Perlin3D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin3d_fractal" unique_id=1686325876]
+texture_filter = 1
+material = SubResource("535")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="simplex3d_fractal" type="VBoxContainer" parent="Root/container" unique_id=1807964325]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex3d_fractal" unique_id=1670112820]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Simplex3D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex3d_fractal" unique_id=1585930821]
+texture_filter = 1
+material = SubResource("547")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="perlin4d_fractal" type="VBoxContainer" parent="Root/container" unique_id=298432731]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/perlin4d_fractal" unique_id=775085665]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Perlin4D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/perlin4d_fractal" unique_id=1131534590]
+texture_filter = 1
+material = SubResource("560")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="simplex4d_fractal" type="VBoxContainer" parent="Root/container" unique_id=210547522]
+texture_filter = 1
+custom_minimum_size = Vector2(120, 95)
+layout_mode = 2
+alignment = 1
+
+[node name="title" type="Label" parent="Root/container/simplex4d_fractal" unique_id=506670356]
+texture_filter = 1
+custom_minimum_size = Vector2(70, 0)
+layout_mode = 2
+text = "Fractal
+Simplex4D Noise"
+horizontal_alignment = 1
+
+[node name="preview" type="TextureRect" parent="Root/container/simplex4d_fractal" unique_id=947383402]
+texture_filter = 1
+material = SubResource("573")
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+texture = ExtResource("1")
+expand_mode = 4
 stretch_mode = 6
